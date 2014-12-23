@@ -20,8 +20,6 @@
 ?>
 <?
 	
-	//print_r( $_POST );
-	//echo "<br>------------------<br>";
 	$affichage_envoi_ok = "none";
 	if (isset( $_POST["mon_action"])){
 		
@@ -31,9 +29,9 @@
 		
 		if ( ( $_POST["mon_action"] == "envoyer" ) && ( $_POST['captcha'] == $_SESSION['captcha']) ) {
 			//echo "Envoyer...<br>";
-			//$_to = "aplanteur@gmail.com";
-			$_to = "fjavi.gonzalez@gmail.com";
-			$sujet = "Speakers Corner language - Nv message Livre d'or". $societe;
+			$_to = "aplanteur@gmail.com";
+			//$_to = "fjavi.gonzalez@gmail.com";
+			$sujet = "Speakers Corner language - Nv message Livre d'or ". $societe;
 			//echo "Envoi du message à " . $_to . "<br>";
 			
 			$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.com>\n";
