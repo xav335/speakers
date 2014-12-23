@@ -1,4 +1,6 @@
 <?php 
+	session_start();
+	
 	if ($_GET["type"]=='pro') {
 		$societe="pro";
 	}else {
@@ -6,49 +8,62 @@
 	}
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='menuTexteFondOn';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='menuTexteOn';$classMenuColor[7]='';
+
+	
+	function captcha()
+	{
+		$liste = array('cheval', 'oiseau', 'chien', 'chat');
+		$_SESSION['captcha'] = $liste[array_rand($liste)];
+		return $_SESSION['captcha'];
+	}
+	
 ?>
 <?
-	// Récupération des informations passées en paramètres
-	$mon_action = $_POST["mon_action"];
-	$anti_spam = $_POST["as"];
-	
-	//echo "--- mon_action : " . $mon_action . "<br>";
-	//echo "--- anti_spam : " . $anti_spam . "<br>";
 	
 	//print_r( $_POST );
 	//echo "<br>------------------<br>";
-	
 	$affichage_envoi_ok = "none";
-	
-	if ( ( $mon_action == "envoyer" ) && ( $anti_spam == "" ) ) {
-		//echo "Envoyer...<br>";
+	if (isset( $_POST["mon_action"])){
 		
-		//$_to = "aplanteur@gmail.com";
-		$_to = "fjavi.gonzalez@gmail.com";
-		$sujet = "Speakers Corner language - Nv message Livre d'or";
-		//echo "Envoi du message à " . $_to . "<br>";
+		$_SESSION['nom'] = $_POST["nom"] ;
+		$_SESSION['email'] = $_POST["email"] ;
+		$_SESSION['message'] = $_POST["msg"];
 		
-		$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.com>\n";
-		$entete .= "MIME-version: 1.0\n";
-		$entete .= "Content-type: text/html; charset= iso-8859-1\n";
-		//$entete .= "Bcc: fjavi.gonzalez@gmail.com\n";
-		
-		$corps = "";
-		$corps .= "Bonjour,<br><br>";
-		$corps .= "Nv message pour le livre d'or de :<br><b>" . $_POST["nom"] . " " . "</b> (" . $_POST["email"] . ")<br>";
-		$corps .= "<b>Message :</b><br>";
-		$corps .= $_POST["msg"] . "<br><br>";
-		$corps = utf8_decode( $corps );
-		//echo $corps . "<br>";
-		
-		// Envoi des identifiants par mail
-		mail($_to, $sujet, stripslashes($corps), $entete);
-		
-		$affichage_envoi_ok = "block";
-		$affichage_formulaire = "none";
+		if ( ( $_POST["mon_action"] == "envoyer" ) && ( $_POST['captcha'] == $_SESSION['captcha']) ) {
+			//echo "Envoyer...<br>";
+			//$_to = "aplanteur@gmail.com";
+			$_to = "fjavi.gonzalez@gmail.com";
+			$sujet = "Speakers Corner language - Nv message Livre d'or". $societe;
+			//echo "Envoi du message à " . $_to . "<br>";
+			
+			$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.com>\n";
+			$entete .= "MIME-version: 1.0\n";
+			$entete .= "Content-type: text/html; charset= iso-8859-1\n";
+			$entete .= "Bcc: fjavi.gonzalez@gmail.com\n";
+			
+			$corps = "";
+			$corps .= "Bonjour,<br><br>";
+			$corps .= "Nv message pour le livre d'or ". $societe ." de :<br><b>" . $_POST["nom"] . " " . "</b> (" . $_POST["email"] . ")<br>";
+			$corps .= "<b>Message :</b><br>";
+			$corps .= $_POST["msg"] . "<br><br>";
+			$corps = utf8_decode( $corps );
+			//echo $corps . "<br>";
+			
+			// Envoi des identifiants par mail
+			mail($_to, $sujet, stripslashes($corps), $entete);
+			
+			$affichage_envoi_ok = "ok";
+			$_SESSION['nom'] ='';
+			$_SESSION['email']='';
+			$_SESSION['message'] ='';
+		} else {
+			$affichage_envoi_ok = "captchaKO";;
+		}
+	} else {
+		$_SESSION['nom'] ='';
+		$_SESSION['email']='';
+		$_SESSION['message'] ='';
 	}
-	
-	$menu_contact = "active";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -104,14 +119,22 @@
 										
 										<div style="text-align:center; border: 1px solid #FFF; padding: 13px; margin-bottom: 5px; display:<?=$affichage_envoi_ok?>">
 											<div class="description">
+												<?php if($affichage_envoi_ok == 'ok') {?>
 												<h3>Merci,</h3>
 												<p>Votre message nous a bien été envoyé.</p>
 												<p>Merci pour votre confiance</p>
+												<?php } else { ?>
+												<h3>Contrôle AntiSpam,</h3>
+												<p>Le mot à recopier n'est pas correct</p>
+												<p>Merci de recommencer</p>
+												<?php }?>
 											</div>
 										</div>
-										<input type="text" id="nom" name="nom"  placeholder="Votre nom" required><br>
-										<input type="email" id="email" name="email" placeholder="Votre email" required><br>
-										<textarea id="msg" name="msg" placeholder="Votre message" required></textarea><br>
+										<input type="text" id="nom" name="nom"  placeholder="Votre nom" required value="<?php echo $_SESSION['nom'] ?>"><br>
+										<input type="email" id="email" name="email" placeholder="Votre email" required value="<?php echo $_SESSION['email'] ?>"><br>
+										<textarea id="msg" name="msg" placeholder="Votre message" required><?php echo $_SESSION['message'] ?></textarea><br>
+										<label for="captcha">Antispam, recopiez le mot : <strong><?php echo captcha(); ?></strong></label>
+            							<input type="text" name="captcha" id="captcha" required /><br>
 										<input type="submit" class="submit" value="PUBLIER" style="color: #FFF;">
 									</form>
 								</div>
