@@ -1,0 +1,13 @@
+
+body {background: #282828 ;font-family:Century, Times, sans-serif; color: #FFF; margin: 0}
+
+.main {background:#9d9d9c;max-width:1500px;margin:0 auto;width: 100%;}
+.header {background:url("../images/header.jpg") 50% 0 / 1500px no-repeat scroll; height: 210px;}
+.content{background:url(../images/footer.gif) 50% 100% / 1500px no-repeat scroll; max-width: 1500px;}
+
+
+	.content-center {background:#dbdbd4; margin-left:auto;margin-right:auto; width: 990px; margin-bottom: 0px;}
+		.content-center-bas {margin-left:auto;margin-right:auto; width: 990px; height:150px; margin-bottom: 450px; border:1px solid black;}
+			.content-center-bas-droite {background:#60605f; padding:5px 5px 5px 5px; margin-left:506px;margin-right:auto; margin-top:23px; height: 99px; bottom; border:1px solid black;}
+
+.footer {background:#000; height: 4px;border:1px solid black;}

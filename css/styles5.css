@@ -1,0 +1,33 @@
+
+body {background: #282828 ;font-family:Century, Times, sans-serif; color: #FFF; margin: 0;}
+
+.main {background:#9d9d9c;max-width:1500px;margin:0 auto;width: 100%;}
+.header {background:url("../images/header.jpg") center bottom  no-repeat scroll; height: 210px; text-align: center;}
+	#logo {padding-top:17px;}
+	#titre-site {font-size: 24px; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+.content{background:url(../images/footer.png) center bottom no-repeat scroll; max-width: 1500px;}
+	.content-center { margin-left:auto;margin-right:auto; width: 990px; margin-bottom: 0px; padding:0px 0px 0px 0px;}
+
+		#soldat {float:left;position:relative;top: -188px; left: -32px; }
+		.content-center-top{overflow: hidden;}	
+			.content-center-left{color: #303030; background: #b1b1b0;padding:20px 20px 20px 20px; float:left; width: 460px;}	
+			.content-center-right{margin-left:520px;}
+				.content-center-right-top{background:#182451; color:#FFF; padding:20px 20px 20px 20px; margin-bottom: 20px;}
+				.content-center-right-bottom{color: #303030; background:#858584;padding:20px 20px 20px 20px;margin-top: 20px;}
+		
+	.content-center-bas {margin-left:auto;margin-right:auto; width: 990px; height:150px; margin-bottom: 450px;}
+		.content-center-bas-droite {background:#60605f; padding:5px 5px 5px 16px; margin-left:506px;margin-right:auto; margin-top:23px;border:1px solid black;}
+			.cabine-tel {float:left; position:relative; top:-24px; }
+			.info-adele {padding:15px 15px 15px 85px;}
+	.footer {background:#000; height: 4px;}
+
+	
+
+.titre1 {font-size: 24px;}
+.titre2 {font-size: 30px;}
+.titre3 {font-size: 11px;}
+	
+	
+.titre-bleu {color:#182451;font-size:16px;text-transform:uppercase; display:block;padding:10px 0px 10px 0px;}
+.titre-blanc {color:#FFF;font-size:16px;text-transform:uppercase; display:block;padding:10px 0px 10px 0px; text-align: center;}

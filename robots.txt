@@ -1,0 +1,14 @@
+# SPEAKERSCORNERLANGUAGE.COM 
+# Robot Exclusion File -- robots.txt
+# Author:  admin@iconeo.fr
+# Last Updated:  08/08/2014 11:44:00
+
+# Disallow all
+User-agent: *
+Disallow: /admin/
+Disallow: /include/
+Disallow: /stats/
+Disallow: /connexion/
+
+# Sitemap
+Sitemap: http://http://www.speakerscornerlanguage.com/sitemap.xml
