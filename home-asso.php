@@ -44,7 +44,7 @@
 				<div class="content-center-left">
 					<span class="titre-bleu">SPEAKERS’CORNER propose des formations en anglais pour les particuliers et les professionnels.</span>
 					<div style="float: left; padding: 0px 15px 10px 0px; text-align:center;" >
-						<img style="padding-bottom: 4px;" alt="photo-groupe" src="images/adele-asso.png" /><br>
+						<img style="padding-bottom: 4px;" alt="photo-groupe" src="images/adele-asso.jpg" /><br>
 						<span class="texte">Adele Planteur<br>
     					TEACHING MANAGER</span>
 					</div>
@@ -52,7 +52,7 @@
 					L’accent est mis sur la communication dès la 1ère séance :<br><br>
 					<b>Expression orale :</b> s’exprimer sur des sujets concrets, utiles et stimulants car seule la pratique de l'oral rend possible le développement de <b>réflexes et d'automatismes</b> linguistiques.<br><br>
 					<b>Compréhension orale :</b> privilégier l’écoute et la compréhension de l’oral avec des supports modernes et authentiques.<br><br>
-					
+					<br><br><br><br>
 					<span class="titre-bleu" style="text-align: center;">L’UNIVERS SPEAKERS’CORNER :</span>
 					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metroasso.png" /></div>
 					<ul class="list1">

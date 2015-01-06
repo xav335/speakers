@@ -47,7 +47,7 @@
 			</div>
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: left; margin-right: 22px;"><img style="width: 85%;" alt="adele planteur" src="images/adele2.jpg" /></div>
+					<div style="float: left; margin-right: 22px;"><img  alt="adele planteur" src="images/adele2.jpg" /></div>
 					<span class="titre-bleu"><b>Adele PLANTEUR</b> : Teaching Manager and certified teacher</span><br>
 					<span style="font-weight: bold;">Responsable pédagogique de toutes les formations en anglais.</span><br>
 					<div style="margin-left: 232px; border: 0px solid white;" >
