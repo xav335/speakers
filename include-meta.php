@@ -2,6 +2,7 @@
 	<title>Speakers'corner | Cours anglais | Latresne</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="google-site-verification" content="hjIYzypC2sCZInSix-wCyqulpEZbE_6yH1Ev_UZb0A4" />
+	<meta name="msvalidate.01" content="0F652D91935F25317C22102440B50132" />
 	<meta name="msvalidate.01" content="" />
 	<META name="y_key" content="">
 	<meta name="Content-Language" content="fr">
