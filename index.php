@@ -1,3 +1,18 @@
+<?php 
+require 'admin/classes/News.php';
+require 'admin/classes/utils.php';
+session_start();
+
+	$news = new News();
+	$result = $news->newsGet(null);
+	//print_r($result);
+	if (empty($result)) {
+		$message = 'Aucun enregistrements';
+	} else {
+		$message = '';
+	}
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -61,17 +76,22 @@
 	<!-- Fin Décoration -->
 	
 	<div class="actualite">
-		<h2>Actualité</h2>
-		<p>
-			Stages d'anglais Toussaint ! Inscrivez vous !
-			<span style="padding-bottom: 8px;">22, 23, 24 octobre 2014 COLLÈGE ET LYCÉE LATRESNE</span>
-		</p>
-		<a href="news.php?type=asso&id=25" title="+ de détails">de détails</a>
-		<p>
-			Nouveauté !
-			<span style="padding-bottom: 8px;">Cours à Bouliac mardi et jeudi 18h pour les primaires !</span>
-		</p>
-		<a href="news.php?type=asso&id=24" title="+ de détails">de détails</a>
+		<?php 
+			if (!empty($result)) { ?>
+			<h2>Actualité</h2>
+			<?php 
+				$i=0;
+				foreach ($result as $value) { 
+					if ($i==2) break;  // 2 actus affichée Max
+					$i++;
+				?>
+			<p>
+				<?php echo $value['accroche'] ?> 
+				<span style="padding-bottom: 8px;"><?php echo $value['accroche'] ?></span>
+			</p>
+			<a href="news.php?type=<?php  ($value['type']==1) ? $type="pro": $type= "asso"; echo $type; ?>&id=<?php echo  $value['id_news'] ?>" title="+ de détails">de détails</a>
+			<?php } ?>
+		<?php } ?>	
 	</div>
 	
 	

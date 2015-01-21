@@ -1,4 +1,6 @@
 <?php 
+	require 'admin/classes/Goldbook.php';
+	require 'admin/classes/Goldbookpro.php';
 	session_start();
 	
 	if ($_GET["type"]=='pro') {
@@ -18,6 +20,23 @@
 	}
 	
 ?>
+<?php 
+	$goldbook = new Goldbook();
+	$goldbookpro = new Goldbookpro();
+	
+	if ($societe=="asso") {
+		$result = $goldbook->goldbookValidGet(null);
+	} else {
+		$result = $goldbookpro->goldbookproValidGet(null);
+	}
+	//print_r($result);
+	if (empty($result)) {
+		$message = 'Aucun enregistrements';
+	} else {
+		$message = '';
+	}
+
+?>
 <?
 	
 	$affichage_envoi_ok = "none";
@@ -25,7 +44,7 @@
 		
 		$_SESSION['nom'] = $_POST["nom"] ;
 		$_SESSION['email'] = $_POST["email"] ;
-		$_SESSION['message'] = $_POST["msg"];
+		$_SESSION['message'] = $_POST["message"];
 		
 		if ( ( $_POST["mon_action"] == "envoyer" ) && ( $_POST['captcha'] == $_SESSION['captcha']) ) {
 			//echo "Envoyer...<br>";
@@ -43,12 +62,18 @@
 			$corps .= "Bonjour,<br><br>";
 			$corps .= "Nv message pour le livre d'or ". $societe ." de :<br><b>" . $_POST["nom"] . " " . "</b> (" . $_POST["email"] . ")<br>";
 			$corps .= "<b>Message :</b><br>";
-			$corps .= $_POST["msg"] . "<br><br>";
+			$corps .= $_POST["message"] . "<br><br>";
 			$corps = utf8_decode( $corps );
 			//echo $corps . "<br>";
 			
 			// Envoi des identifiants par mail
 			mail($_to, $sujet, stripslashes($corps), $entete);
+			
+			if ($societe=="asso") {
+				$goldbook->goldbookAdd($_POST);
+			} else {
+				$goldbookpro->goldbookproAdd($_POST);
+			}
 			
 			$affichage_envoi_ok = "ok";
 			$_SESSION['nom'] ='';
@@ -62,6 +87,10 @@
 		$_SESSION['email']='';
 		$_SESSION['message'] ='';
 	}
+	
+	
+	$goldbook = null;	
+	$goldbookpro = null;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -128,9 +157,9 @@
 												<?php }?>
 											</div>
 										</div>
-										<input type="text" id="nom" name="nom"  placeholder="Votre nom" required value="<?php echo $_SESSION['nom'] ?>"><br>
+										<input type="text" id="nom" name="name"  placeholder="Votre nom" required value="<?php echo $_SESSION['nom'] ?>"><br>
 										<input type="email" id="email" name="email" placeholder="Votre email" required value="<?php echo $_SESSION['email'] ?>"><br>
-										<textarea id="msg" name="msg" placeholder="Votre message" required><?php echo $_SESSION['message'] ?></textarea><br>
+										<textarea id="msg" name="message" placeholder="Votre message" required><?php echo $_SESSION['message'] ?></textarea><br>
 										<label for="captcha">Antispam, recopiez le mot : <strong><?php echo captcha(); ?></strong></label>
             							<input type="text" name="captcha" id="captcha" required /><br>
 										<input type="submit" class="submit" value="PUBLIER" style="color: #FFF;">
@@ -142,70 +171,21 @@
 					</div>
 						
 				</div>	 
-				<?php if ($societe=='asso') { ?>
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Merci pour cette formation en anglais de 10 heures. J’ai de nouveau confiance en moi et j’ai réussi à me
-						  	 débrouiller en Cornouailles pendant mes vacances.<br><br>
-							Je reviendrai sans hésiter l’été prochain pour rafraîchir de nouveau mes connaissances en anglais.<br><br>
-							Merci été bon été.<br><br>
-							<b>Virginie.B (Tresses)</b>
-						</span>
-					</div>
-				</div> 
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Grand merci pour cette année de remise à niveau en anglais. J’ai réussi mon épreuve écrite et orale au
-						  	 BAC avec de super notes et c’est vraiment grâce à ma formatrice.<br><br>
-							Je recommande à tous ceux désireux d’apprendre l’anglais ou de se perfectionner d’aller chez Speakers’ Corner, vous ne serez pas déçus!<br><br>
-							<b>Tiffany.P (Bordeaux Bastide)</b>
-						</span>
-					</div>
-				</div> 
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Mon fils a suivi les ateliers d’anglais avec Speakers’ Corner et depuis il adore parler et chanter en anglais à la maison. Il reviendra sans hésiter au mois de septembre pour poursuivre son apprentissage.
-							<br><br>
- 							<b>Patricia, maman d’Alexandre 6 ans. (Latresne)</b>
-						</span>
-					</div>
-				</div> 
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Depuis 1 an mon fils de 6 ans suit les cours d’anglais après la classe avec Didier tous les jeudis, il est ravi de ce moment ludique et qui le sensibilise énormement à la langue Anglaise.<br>
-						  	Je l'ai réinscrit cette année à sa demande!   
-							<br><br>
- 							<b>Xavier Gonzalez (Latresne)</b>
-						</span>
-					</div>
-				</div> 
-				<?php }else{ ?>
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Merci à Speakers’ Corner pour leur professionnalisme ! Après une formation de 40 heures en anglais des affaires  
-						  	j’ai finalement réussi mes entretiens d’embauche et ai décroché une place que je ne n’aurais pas pu espérer sans cette
-						  	 remise à niveau en anglais qui m’a redonné confiance.<br><br>
- 							<b>Pascal.T (Carignan de Bordeaux)</b>
-
-						</span>
-					</div>
-				</div> 
-				<div class="content-center-left-news" >
-					<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-						<span class="texte-gris" >
-						  	Un grand merci à la formatrice Adele qui a su parfaitement diagnostiquer mes besoins et me faire progresser. 
-						  	Je peux maintenant partir en conférence à l'étranger et comprendre tout ce qui est dit et ainsi prendre part aux conversations 
-						  	et donner mon opinion sur les décisions collégiales. Bonne continuation et beaucoup de succès!<br><br>
- 							<b>Elodie Barreau ( Bouliac)</b>
-
-						</span>
-					</div>
-				</div> 
+				<?php 
+					if (!empty($result)) { 
+						$i=0;
+						foreach ($result as $value) {
+							$i++;
+							?>
+						<div class="content-center-left-news" >
+							<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
+								<span class="texte-gris" >
+								  	<?php echo $value['message'] ?><br><br>
+									<b><?php echo $value['nom'] ?></b>
+								</span>
+							</div>
+						</div> 
+						<?php } ?>
 				<?php } ?>
 			</div>
 			<img id="soldat" alt="soldat" src="images/soldat.png" />
