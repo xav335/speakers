@@ -1,5 +1,6 @@
 <?php 
 	require 'admin/classes/Goldbook.php';
+	require 'admin/classes/Contact.php';
 	require 'admin/classes/Goldbookpro.php';
 	session_start();
 	
@@ -42,7 +43,7 @@
 	$affichage_envoi_ok = "none";
 	if (isset( $_POST["mon_action"])){
 		
-		$_SESSION['nom'] = $_POST["nom"] ;
+		$_SESSION['nom'] = $_POST["name"] ;
 		$_SESSION['email'] = $_POST["email"] ;
 		$_SESSION['message'] = $_POST["message"];
 		
@@ -60,7 +61,7 @@
 			
 			$corps = "";
 			$corps .= "Bonjour,<br><br>";
-			$corps .= "Nv message pour le livre d'or ". $societe ." de :<br><b>" . $_POST["nom"] . " " . "</b> (" . $_POST["email"] . ")<br>";
+			$corps .= "Nv message pour le livre d'or ". $societe ." de :<br><b>" . $_POST["name"] . " " . "</b> (" . $_POST["email"] . ")<br>";
 			$corps .= "<b>Message :</b><br>";
 			$corps .= $_POST["message"] . "<br><br>";
 			$corps = utf8_decode( $corps );
@@ -74,6 +75,15 @@
 			} else {
 				$goldbookpro->goldbookproAdd($_POST);
 			}
+			
+			//stockage dans contact
+			$contact = new Contact();
+			$_POST['fromgoldbook']='on';
+			$_POST['newsletter']='';
+			$_POST['firstname']='';
+			$_POST['fromcontact']='';
+			$contact->contactAdd($_POST);
+			$contact=null;
 			
 			$affichage_envoi_ok = "ok";
 			$_SESSION['nom'] ='';
@@ -143,6 +153,8 @@
 									<form id="contacte" name="contacte" method="post" action="livredor.php?type=<?php echo $societe; ?>">
 										<input type="hidden" value="envoyer" id="mon_action" name="mon_action">
 										<input type="hidden" value="" id="as" name="as">
+										<input type="hidden" name="datepicker"  value="<?php echo date('d/m/Y')?>" >
+										<input type="hidden" name="online"  value="0" >
 										
 										<div style="text-align:center; border: 1px solid #FFF; padding: 13px; margin-bottom: 5px; display:<?=$affichage_envoi_ok?>">
 											<div class="description">

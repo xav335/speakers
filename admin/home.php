@@ -1,6 +1,7 @@
 <?php 
 require 'classes/Authentication.php';
 require 'classes/Goldbook.php';
+require 'classes/Goldbookpro.php';
 session_start();
 
 $authentication = new Authentication();
@@ -20,6 +21,14 @@ if (empty($result)) {
 	$message = 'Vous avez '. $result[0]['nb'] .' message(s) à valider';
 }
 
+$goldbookpro = new Goldbookpro();
+$result = $goldbookpro->goldbookproUnvalidateGet();
+if (empty($result)) {
+	$messagepro = 'Tous les messages sont validés';
+} else {
+	$messagepro = 'Vous avez '. $result[0]['nb'] .' message(s) à valider';
+}
+
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -37,11 +46,24 @@ if (empty($result)) {
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Message du livre d'or à valider</h3>
+					<h3 class="panel-title">Message du livre d'or Asso à valider</h3>
 				</div>
 				<div class="panel-body">
 					<p>
 						<?php echo $message ?>
+					</p>
+					<p>
+						<a class="btn btn-success pull-right" href="/admin/goldbook-list.php">Modifier</a>
+					</p>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Message du livre d'or Pro à valider</h3>
+				</div>
+				<div class="panel-body">
+					<p>
+						<?php echo $messagepro ?>
 					</p>
 					<p>
 						<a class="btn btn-success pull-right" href="/admin/goldbook-list.php">Modifier</a>

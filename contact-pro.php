@@ -1,12 +1,19 @@
 <?php 
+require 'admin/classes/Contact.php';
+
 	$societe="pro";
 	$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='menuTexteFondOn';
 	$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='menuTexteOn';
+
 ?>
 <?
 	// Récupération des informations passées en paramètres
-	$mon_action = $_POST["mon_action"];
-	$anti_spam = $_POST["as"];
+	$mon_action = null;
+	$anti_spam = null;
+	if(!empty($_POST)){
+		$mon_action = $_POST["mon_action"];
+		$anti_spam = $_POST["as"];
+	}
 	
 	//echo "--- mon_action : " . $mon_action . "<br>";
 	//echo "--- anti_spam : " . $anti_spam . "<br>";
@@ -31,18 +38,27 @@
 		
 		$corps = "";
 		$corps .= "Bonjour,<br><br>";
-		$corps .= "Vous avez un message de :<br><b>" . $_POST["nom"] . " " . $_POST["prenom"] . "</b> (" . $_POST["email"] . ")<br>";
+		$corps .= "Vous avez un message de :<br><b>" . $_POST["name"] . " " . $_POST["firstname"] . "</b> (" . $_POST["email"] . ")<br>";
 		$corps .= $_POST["adresse"] . ", " . $_POST["cp"] . " " . $_POST["ville"] . "<br><br>";
 		$corps .= "Tel :".  $_POST["tel"] ."<br>";
 		$corps .= "<b>Sujet :</b><br>";
 		$corps .= $_POST["sujet"] . "<br><br>";
 		$corps .= "<b>Message :</b><br>";
-		$corps .= $_POST["msg"] . "<br><br>";
+		$corps .= $_POST["message"] . "<br><br>";
 		$corps = utf8_decode( $corps );
 		//echo $corps . "<br>";
 		
 		// Envoi des identifiants par mail
 		mail($_to, $sujet, stripslashes($corps), $entete);
+		
+		//stockage dans contact
+		$contact = new Contact();
+		$_POST['fromgoldbook']='';
+		$_POST['newsletter']='';
+		$_POST['firstname']='pro';
+		$_POST['fromcontact']='on';
+		$contact->contactAdd($_POST);
+		$contact=null;
 		
 		$affichage_envoi_ok = "block";
 		$affichage_formulaire = "none";
@@ -128,15 +144,15 @@
 											<p>Nous vous répondrons dans les plus brefs délais.</p>
 										</div>
 									</div>
-									<input type="text" id="nom" name="nom"  placeholder="Votre nom" required><br>
-									<input type="text"  id="prenom" name="prenom" placeholder="Votre prénom"><br>
+									<input type="text" id="nom" name="name"  placeholder="Votre nom" required><br>
+									<input type="text"  id="prenom" name="firstname" placeholder="Votre prénom"><br>
 									<input type="text"  id="adresse" name="adresse" placeholder="Votre adresse"><br>
 									<input type="text"  id="cp" name="cp" placeholder="Votre cp"><br>
 									<input type="text"  id="ville" name="ville"  placeholder="Votre ville"><br>
 									<input type="tel"   id="tel" name="tel"  placeholder="Mon tel" required><br>
 									<input type="email" id="email" name="email" placeholder="Votre email" required><br>
 									<input type="text"  id="sujet" name="sujet" placeholder="Sujet du message" required><br>
-									<textarea id="msg" name="msg" placeholder="Votre message" required></textarea><br>
+									<textarea id="msg" name="message" placeholder="Votre message" required></textarea><br>
 									<input type="submit" class="submit" value="ENVOYER" style="color: #FFF">
 								</form>
 							</div>
