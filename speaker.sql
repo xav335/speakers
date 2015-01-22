@@ -77,11 +77,12 @@ CREATE TABLE `contact` (
   `name` varchar(250) DEFAULT NULL,
   `email` varchar(250) DEFAULT NULL,
   `tel` varchar(50) DEFAULT NULL,
+  `message` text,
   `newsletter` tinyint(4) NOT NULL DEFAULT '0',
   `fromgoldbook` tinyint(4) NOT NULL DEFAULT '0',
   `fromcontact` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3349 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3353 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -90,6 +91,7 @@ CREATE TABLE `contact` (
 
 LOCK TABLES `contact` WRITE;
 /*!40000 ALTER TABLE `contact` DISABLE KEYS */;
+INSERT INTO `contact` VALUES (3349,'','Xavier Gonzalez','fjavi.gonzalez@gmail.com',NULL,NULL,0,1,0),(3350,'0','fred lesca','fredericlesca@iconeo.fr',NULL,NULL,1,1,1),(3351,'asso','gonzalez','x@free.Fr',NULL,'sdfsdfsdfsf',1,0,1),(3352,'asso','Xavier Gonzalez','contact@iconeo.fr',NULL,'sdfsdf sdf sdf sdf',0,0,1);
 /*!40000 ALTER TABLE `contact` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -130,7 +132,7 @@ CREATE TABLE `goldbook` (
   `message` text,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -139,7 +141,7 @@ CREATE TABLE `goldbook` (
 
 LOCK TABLES `goldbook` WRITE;
 /*!40000 ALTER TABLE `goldbook` DISABLE KEYS */;
-INSERT INTO `goldbook` VALUES (10,'2015-01-01 00:00:00','Virginie.B (Tresses)','no@no.no','Merci pour cette formation en anglais de 10 heures. J’ai de nouveau confiance en moi et j’ai réussi à me débrouiller en Cornouailles pendant mes vacances.\r\n\r\nJe reviendrai sans hésiter l’été prochain pour rafraîchir de nouveau mes connaissances en anglais.\r\n\r\nMerci été bon été.',1),(11,'2015-01-02 00:00:00','Tiffany.P (Bordeaux Bastide)','no@no.no','Grand merci pour cette année de remise à niveau en anglais. J’ai réussi mon épreuve écrite et orale au BAC avec de super notes et c’est vraiment grâce à ma formatrice.\r\n\r\nJe recommande à tous ceux désireux d’apprendre l’anglais ou de se perfectionner d’aller chez Speakers’ Corner, vous ne serez pas déçus!',1),(12,'2015-01-03 00:00:00','Patricia, maman d’Alexandre 6 ans. (Latresne)','no@no.no','Mon fils a suivi les ateliers d’anglais avec Speakers’ Corner et depuis il adore parler et chanter en anglais à la maison. Il reviendra sans hésiter au mois de septembre pour poursuivre son apprentissage. ',1),(13,'2015-01-04 00:00:00','Xavier Gonzalez (Latresne)','xavier@gonzalez.pm','Depuis 1 an mon fils de 6 ans suit les cours d’anglais après la classe avec Didier tous les jeudis, il est ravi de ce moment ludique et qui le sensibilise énormement à la langue Anglaise.\r\nJe l\'ai réinscrit cette année à sa demande! ',1),(14,'0000-00-00 00:00:00','','fredericlesca@iconeo.fr','Une vrai ',0),(15,'0000-00-00 00:00:00','','fredericlesca@iconeo.fr','Une vrai ',0),(16,'0000-00-00 00:00:00','Elodie Barreau ( Bouliac)','sdfsdf@fsdfsdf.fr','svsdfsdfsdfsdfsd',0);
+INSERT INTO `goldbook` VALUES (10,'2015-01-01 00:00:00','Virginie.B (Tresses)','no@no.no','Merci pour cette formation en anglais de 10 heures. J’ai de nouveau confiance en moi et j’ai réussi à me débrouiller en Cornouailles pendant mes vacances.\r\n\r\nJe reviendrai sans hésiter l’été prochain pour rafraîchir de nouveau mes connaissances en anglais.\r\n\r\nMerci été bon été.',1),(11,'2015-01-02 00:00:00','Tiffany.P (Bordeaux Bastide)','no@no.no','Grand merci pour cette année de remise à niveau en anglais. J’ai réussi mon épreuve écrite et orale au BAC avec de super notes et c’est vraiment grâce à ma formatrice.\r\n\r\nJe recommande à tous ceux désireux d’apprendre l’anglais ou de se perfectionner d’aller chez Speakers’ Corner, vous ne serez pas déçus!',1),(12,'2015-01-03 00:00:00','Patricia, maman d’Alexandre 6 ans. (Latresne)','no@no.no','Mon fils a suivi les ateliers d’anglais avec Speakers’ Corner et depuis il adore parler et chanter en anglais à la maison. Il reviendra sans hésiter au mois de septembre pour poursuivre son apprentissage. ',1),(13,'2015-01-04 00:00:00','Xavier Gonzalez (Latresne)','xavier@gonzalez.pm','Depuis 1 an mon fils de 6 ans suit les cours d’anglais après la classe avec Didier tous les jeudis, il est ravi de ce moment ludique et qui le sensibilise énormement à la langue Anglaise.\r\nJe l\'ai réinscrit cette année à sa demande! ',1);
 /*!40000 ALTER TABLE `goldbook` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -158,7 +160,7 @@ CREATE TABLE `goldbookpro` (
   `message` text,
   `online` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -234,4 +236,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-01-21 12:27:39
+-- Dump completed on 2015-01-22 10:58:34
