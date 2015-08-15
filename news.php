@@ -28,7 +28,7 @@ session_start();
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<? 
+	<?php 
 				
 	include_once("./include-meta.php"); 
 	
@@ -45,7 +45,7 @@ session_start();
 
 <div class="main">
 	<div class="header">
-		<? 
+		<?php 
 				
 		include_once("./include-logo.php"); 
 				
@@ -54,7 +54,7 @@ session_start();
 	<div class="content">
 		<div class="content-top">
 			<div class="content-top-base">
-				<? 
+				<?php 
 				
 				include_once("./include-menu-$societe.php"); 
 				
@@ -152,7 +152,7 @@ session_start();
 		</div>	
 	</div>	
 	<div class="footer">
-		<? 
+		<?php 
 		
 		include_once("./include-footer-$societe.php"); 
 		
