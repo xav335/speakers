@@ -1,5 +1,4 @@
-AuthUserFile /home/web/s/.htpasswd
-AuthGroupFile /dev/null
+AuthUserFile /var/www/factures/.htpasswd
 AuthName "Acces Restreint"
 AuthType Basic
 <Limit GET POST>
