@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-only" style="background-color: #858584;">
-					<span class="titre-blanc-gros">TARIFS A L’HEURE 2014 /2015</span>
+					<span class="titre-blanc-gros">TARIFS A L’HEURE 2015 /2016</span>
 				</div>
 			</div>
 			
@@ -57,27 +57,27 @@
 						   </div>
 						   <div class="row">
 						      <span class="cell2">ENFANTS DES 3 ANS</span>
-						      <span class="cell">10€</span>
-						      <span class="cell">28€</span>
+						      <span class="cell">12€</span>
+						      <span class="cell">30€</span>
 						   </div>
 						   <div class="row">
 						      <span class="cell2">SCOLAIRES/ ADULTES</span>
-						      <span class="cell">10€</span>
-						      <span class="cell">28€</span>
+						      <span class="cell">12€</span>
+						      <span class="cell">30€</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">TEA TIME</span>
-						      <span class="cell">10€</span>
+						      <span class="cell">13€</span>
 						      <span class="cell">-</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">PROFESSIONNELS</span>
-						      <span class="cell">15€</span>
+						      <span class="cell">17€</span>
 						      <span class="cell">40€</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">COURS BINÔME</span>
-						      <span class="cell">30€</span>
+						      <span class="cell">20€ / étudiant</span>
 						      <span class="cell">-</span>
 						   </div>
 						</div>
@@ -89,10 +89,15 @@
 			<div class="content-center-top">
 				<div class="content-center-only" style="text-align:center; border-top: 10px solid #9d9d9c;">
 					<b>ADHESION ANNUELLE 25€ : accès illimité aux sorties culturelles</b><br><br>
-					
+                                    
+						      Mini groupe enfants : 33 séances.
+                                <br>
+                                Mini Groupe adultes : 36	
+                                <br><br>				
 					<div id="table">
 						   <div class="row">
-						      <span class="cell">Forfait familial : <b style="color: red">-15%</b> pour le 2ème inscrit.</span>
+						      <span class="cell">Forfait familial : <b style="color: red">-10%</b> pour le 2ème inscrit.
+						      </span>
 						   </div>
 						</div>
 					
@@ -100,7 +105,7 @@
 						<div id="table3" style="margin-left: 540px;">
 						   <div class="row3">
 						      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-						      <span class="cell3"><a  href="images/ficheinscription3.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+						      <span class="cell3"><a  href="images/ficheinscription2015.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 						   </div>
 						</div>
 					
