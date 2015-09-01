@@ -49,7 +49,7 @@
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
 					<div style="float: left; margin-right: 22px;"><img  alt="adele planteur" src="images/adele2.jpg" /></div>
 					<span class="titre-bleu"><b>Adele PLANTEUR</b> : Teaching Manager and certified teacher</span><br>
-					<span style="font-weight: bold;">Responsable pédagogique de toutes les formations en anglais.</span><br>
+					<span style="font-weight: bold;">Responsable pédagogique.</span><br>
 					<div style="margin-left: 232px; border: 0px solid white;" >
 						<ul class="list1">
 						   <li class="pucePicto">2011 : Diplômée du CELTA avec mention, le certificat international d’enseignement de l’anglais délivré par l’université de Cambridge. (ESOL)</li>
@@ -57,35 +57,45 @@
 						</ul>
 					</div>
 					<br>
-					Adele  termine ses études d’anglais en Angleterre tout en enseignant pendant plusieurs années au sein d’établissements scolaires et d’écoles spécialisées du Royaume Uni. Puis en France, elle enseigne pour l’éducation nationale pendant 5 ans. Aujourd’hui, elle dirige Speakers’ Corner en tant que responsable pédagogique où elle dispense également des cours d’anglais général et intervient dans les écoles.
+					Elle supervise l’ensemble des cours d’anglais de la structure et possède une certification d’enseignement international.<br><br>
+                    Son expérience dans l’enseignement au Royaume Uni et en France lui permet d’offrir assistance et expertise à nos élève et d’épauler les professeurs dans le contenu des cours et la pédagogie propre à Speakers’ Corner.
 				</div>
 			</div>
 
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Didier Laplace" src="images/didier.jpg" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="images/paulwilson.jpg" /></div>
 					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>Didier DELPLACE</b> : English Trainer</span><br>
+						<span class="titre-bleu"><b>Paul WILSON</b> : English Teacher</span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
 							<ul class="list1">
-							   <li class="pucePicto">1995 : diplômé d’un MBA, Master of Business Administration à l’université de Birmingham.</li>
+							   <li class="pucePicto">Enseignant natif anglophone et diplômé du TEFLE, certificat d’enseignement de l’anglais. </li>
 							</ul>
 						</div>
 						<br>
-						Après plusieurs années à Birmingham en tant que formateur, Didier dispense depuis 2 ans  des cours d’anglais général à Speakers’ Corner et s’occupe des préparations aux TOEIC ET TOEFL.
-					</div>
+						Il a enseigné à travers le monde et propose des cours très dynamiques et riches en variété.
+                        <br><br>
+                        Il dispense des cours pour les adultes et les scolaires en mini groupes à Speakers’ Corner.
+						
+						</div>
 				</div>
 			</div>
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>PAUL WILSON</b> : English Teacher</span><br>
-						Enseignant natif et diplômé du TEFLE, certificat d’enseignement de l’anglais.<br><br>
-						Dispense des cours adultes en mini groupes à Speakers’ Corner.<br><br>
+					<div style="float: left; margin-right: 22px;"><img  alt="bella clough" src="images/bellaclough.jpg" /></div>
+					<span class="titre-bleu"><b>Bella Clough</b> : English Trainer</span><br>
+					<span style="font-weight: bold;">Responsable pédagogique.</span><br>
+					<div style="margin-left: 232px; border: 0px solid white;" >
+						<ul class="list1">
+						   <li class="pucePicto">Formatrice native anglophone et formée à la pédagogie de Speakers’ Corner.</li>
+						</ul>
 					</div>
-				</div>
+					<br>
+					Forte de son expérience au R.U dans l’enseignement  de l’anglais aux jeunes enfants elle anime les ateliers en mini groupe  pour les enfants de maternelle et primaire chez Speakers’ Corner.
+					</div>
 			</div>
+			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
 					<span class="titre-bleu"><b>Articles de Presse</b></span><br>
