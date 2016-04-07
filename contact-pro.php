@@ -112,7 +112,7 @@ require 'admin/classes/Contact.php';
 							Adèle Planteur : <br><br>
 							Tel : 06 75 57 72 77<br><br>
 							Email: aplanteur@gmail.com<br><br>
-							ORGANISME DE FORMATION AGRÉÉ CIF/DIF.<br>
+							ORGANISME DE FORMATION AGRÉÉ CPF.<br>
 							SIRET : 539 317 222 000 39<br>
 							N° DECLARATION ACTIVITE : 723 308 573 33
 							<br><br>

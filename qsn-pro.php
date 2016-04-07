@@ -59,7 +59,7 @@
 					<br>
 					Adele  termine ses études d’anglais en Angleterre tout en enseignant pendant plusieurs années au sein d’établissements scolaires et 
 					d’écoles spécialisées du Royaume Uni. Puis en France, elle enseigne pour l’éducation nationale pendant 5 ans. Aujourd’hui, elle dirige
-					 l’organisme de formation Speakers’ Corner Pro et propose des formations en anglais des affaires aux salariés en DIF/CIF ainsi qu’aux chefs 
+					 l’organisme de formation Speakers’ Corner Pro et propose des formations en anglais des affaires aux salariés en CPF ainsi qu’aux chefs 
 					 d’entreprise.
 				</div>
 			</div>

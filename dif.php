@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-only" style="background-color: #858584;">
-					<span class="titre-blanc-gros">DIF / CIF : des formations en anglais 100 % personnalisées 100% financées</span>
+					<span class="titre-blanc-gros">CPF : des formations en anglais 100 % personnalisées 100% financées</span>
 				</div>
 			</div>
 			<div class="content-center-top">
@@ -52,7 +52,7 @@
 						
 						<span class="titre-bleu">1 - DES FORMATIONS 100% FINANCEES.</span>
 						Agrée organisme de formation, les salariés en CDI/CDD et les demandeurs d’emploi peuvent bénéficier d’une formation en anglais
-						 qui sera financée à 100% dans le cadre du DIF ou CIF.<br><br>
+						 qui sera financée à 100% dans le cadre du CPF.<br><br>
 						<a href="contact-pro.php">Contactez notre responsable pour les démarches à entreprendre.</a>
 						<br><br><br>
 						

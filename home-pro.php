@@ -69,7 +69,7 @@
 					   <li class="pucePicto3">Formules individuelles ou en  mini groupes.</li>
 					   <li class="pucePicto3">Modules de préparation aux examens, concours (TOEIC, TOEFL, CAE…)</li>
 					   <li class="pucePicto3">Formations courtes et intensives ou longues et extensives.</li>
-					   <li class="pucePicto3">Possibilité de  financer sa formation en anglais par le DIF/CIF prise en charge à 100%. </li>
+					   <li class="pucePicto3">Possibilité de  financer sa formation en anglais par le CPF prise en charge à 100%. </li>
 					</ul>
 					</span>
 				</div>
@@ -103,7 +103,7 @@
 								 </div>
 							</div>
 							<div style="text-align: center; border-top : 4px ridge white; padding-top: 20px;padding-bottom: 17px;">
-								<span class="texte"><a href="dif.php" >DIF</a></span>
+								<span class="texte"><a href="dif.php" >CPF</a></span>
 								<div style="text-align: center; padding-top: 10px; " >
 									  <span class="texte-gris2">- Formation personalisée en fonction du secteur d'activité -</span>
 									  <span class="texte-gris2">- Groupe -</span>
