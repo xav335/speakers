@@ -64,19 +64,18 @@
 
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="images/paulwilson.jpg" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="img/borrowsky.png" /></div>
 					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>Paul WILSON</b> : English Teacher</span><br>
+						<span class="titre-bleu"><b>Olivier BORROWSKI</b> : English Teacher</span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
 							<ul class="list1">
-							   <li class="pucePicto">Enseignant natif anglophone et diplômé du TEFLE, certificat d’enseignement de l’anglais. </li>
+							   <li class="pucePicto">Enseignant anglophone originaire d’Afrique du Sud.</li>
 							</ul>
 						</div>
 						<br>
-						Il a enseigné à travers le monde et propose des cours très dynamiques et riches en variété.
+						Formateur en anglais général et des affaires.
                         <br><br>
-                        Il dispense des cours pour les adultes et les scolaires en mini groupes à Speakers’ Corner.
-						
+                        Professeur de théâtre en anglais pour enfants, adultes et professionnels.
 						</div>
 				</div>
 			</div>
@@ -94,6 +93,24 @@
 					<br>
 					Forte de son expérience au R.U dans l’enseignement  de l’anglais aux jeunes enfants elle anime les ateliers en mini groupe  pour les enfants de maternelle et primaire chez Speakers’ Corner.
 					</div>
+			</div>
+			
+			<div class="content-center-top">
+				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="img/houston.png" /></div>
+					<div style="margin-left: 42px;">
+						<span class="titre-bleu"><b>Jacqui HOUSTON</b> : English Teacher</span><br>
+						<div style="margin-left: 8px; border: 0px solid white;" >
+							<ul class="list1">
+							   <li class="pucePicto">Enseignante native d’Australie et certifiée du CELTA de l’université de Cambridge.</li>
+							</ul>
+						</div>
+						<br>
+						Expérimentée en anglais des affaires.
+                        <br><br>
+                        Spécialisée en anglais viticole et marketing.
+						</div>
+				</div>
 			</div>
 			
 			<div class="content-center-top">
