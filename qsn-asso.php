@@ -61,10 +61,26 @@
                     Son expérience dans l’enseignement au Royaume Uni et en France lui permet d’offrir assistance et expertise à nos élève et d’épauler les professeurs dans le contenu des cours et la pédagogie propre à Speakers’ Corner.
 				</div>
 			</div>
-
+			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="img/borrowsky.png" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Didier Laplace" src="images/didier.jpg" /></div>
+					<div style="margin-left: 42px;">
+						<span class="titre-bleu"><b>Didier DELPLACE</b> : English Trainer</span><br>
+						<div style="margin-left: 8px; border: 0px solid white;" >
+							<ul class="list1">
+							   <li class="pucePicto">1995 : diplômé d’un MBA, Master of Business Administration à l’université de Birmingham.</li>
+							</ul>
+						</div>
+						<br>
+						Après plusieurs années à Birmingham en tant que formateur, Didier dispense depuis 2 ans  des cours d’anglais général à Speakers’ Corner et s’occupe des préparations aux TOEIC ET TOEFL.
+					</div>
+				</div>
+			</div>
+			
+			<div class="content-center-top">
+				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
+					<div style="float: left; margin-right: 22px;"><img style="width: 80%;" alt="Paul Wilson" src="img/borrowsky.png" /></div>
 					<div style="margin-left: 42px;">
 						<span class="titre-bleu"><b>Olivier BORROWSKI</b> : English Teacher</span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
@@ -82,7 +98,7 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: left; margin-right: 22px;"><img  alt="bella clough" src="images/bellaclough.jpg" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img  alt="bella clough" src="images/bellaclough.jpg" /></div>
 					<span class="titre-bleu"><b>Bella Clough</b> : English Trainer</span><br>
 					<span style="font-weight: bold;">Responsable pédagogique.</span><br>
 					<div style="margin-left: 232px; border: 0px solid white;" >
@@ -97,7 +113,7 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Paul Wilson" src="img/houston.png" /></div>
+					<div style="float: left; margin-right: 22px;"><img style="width: 80%;" alt="Paul Wilson" src="img/houston.png" /></div>
 					<div style="margin-left: 42px;">
 						<span class="titre-bleu"><b>Jacqui HOUSTON</b> : English Teacher</span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
