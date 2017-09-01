@@ -126,7 +126,7 @@
 						<div id="table3" style="margin-left: 30px;">
 						   <div class="row3">
 						      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-						      <span class="cell3"><a  href="images/ficheinscription2016.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+						      <span class="cell3"><a  href="images/ficheinscription2017.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 						   </div>
 						</div>	
 					</div>

@@ -65,80 +65,110 @@
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">17h20/18h20</span>
+						      <span class="cell4">17h15/18h15</span>
 						      <span class="cell4">CM1/CM2</span>
 						      <span class="cell4">Maison des associations Salle 5</span>
 						   </div>
 						    <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">18h15/19h45</span>
+						      <span class="cell4">Adultes Pré intermédiare B1</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						    <div class="row4">
 						      <span class="cell42">MARDI</span>
-						      <span class="cell4">12h/13h</span>
-						      <span class="cell4">Adultes débutants A-A1</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">13h15/14h45</span>
+						      <span class="cell4">10h30/12h</span>
 						      <span class="cell4">Adultes Faux débutants A1-A2</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						    <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">17h20/18h20</span>
-						      <span class="cell4">ATELIER COLLÈGE 5/4/3ème</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-							<div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">18h30/20h</span>
-						      <span class="cell4">Adultes INTERMEDIAIRE B1/B2</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42">MERCREDI</span>
-						      <span class="cell4">14h/15h</span>
-						      <span class="cell4">CE1/CE2</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
+						      <span class="cell4">Cenac Salle B</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">16h/16h45</span>
-						      <span class="cell4">MATERNELLES PS/MS</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">17h/17h45</span>
-						      <span class="cell4">MATERNELLES GS/CP</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">18h15/19h15</span>
-						      <span class="cell4">TEA TIME Atelier adulte avancés</span>
-						      <span class="cell4">Maison des associations Salle 5</span>
-						   </div>
-						    <div class="row4">
-						      <span class="cell42">JEUDI</span>
-						      <span class="cell4">16h/17h</span>
-						      <span class="cell4">CE2/CM1/CM2</span>
-						      <span class="cell4">Salle Augustinot</span>
+						      <span class="cell4">12h15/13h15</span>
+						      <span class="cell4">Adultes débutants A-A1</span>
+						      <span class="cell4">Cenac Salle B</span>
 						   </div>
 						    <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h15/18h15</span>
-						      <span class="cell4">CM2/6ème</span>
+						      <span class="cell4">ATELIER THEATRE à partir de la 6ème</span>
+						      <span class="cell4">Salle des fêtes</span>
+						   </div>
+							<div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">17h30/18h30</span>
+						      <span class="cell4">CLUB ADOS 4ème - 3ème</span>
 						      <span class="cell4">Maison des associations Salle 5</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">18h15/19h45</span>
-						      <span class="cell4">Adultes Pre Intermédiaire</span>
+						      <span class="cell4">18h30/20h</span>
+						      <span class="cell4">ADULTES Intermédiaire B2 - C1</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42">MERCREDI</span>
+						      <span class="cell4">10h30/11h30</span>
+						      <span class="cell4">COFFEE BREAK conversation adulte</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">14h/14h45</span>
+						      <span class="cell4">MATERNELLES 2ème année</span>
+						      <span class="cell4">Dojo</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">14h/14h45</span>
+						      <span class="cell4">CE1 - CE2</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">15h30/16h15</span>
+						      <span class="cell4">MATERNELLES 1ère année</span>
+						      <span class="cell4">Dojo</span>
+						   </div>
+						    <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">17h/17h45</span>
+						      <span class="cell4">GS CP</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						    <div class="row4">
+						      <span class="cell42">JEUDI</span>
+						      <span class="cell4">12h30/13h30</span>
+						      <span class="cell4">COFFEE BREAK</span>
+						      <span class="cell4">Maison des associations Salle 5</span>
+						   </div>
+						    <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">16h/17h</span>
+						      <span class="cell4">CE2/CM1</span>
+						      <span class="cell4">Salle Augustinot</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">17h15/18h45</span>
+						      <span class="cell4">6ème</span>
 						      <span class="cell4">Maison des associations Salle 5</span>
 						   </div>
 						    <div class="row4">
 						      <span class="cell42">VENDREDI</span>
-						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">4ème/3ème</span>
+						      <span class="cell4">12h/13h</span>
+						      <span class="cell4">PREPARATION TOEIC BRIDGE</span>
+						      <span class="cell4">Cenac Salle B</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">16h/17h</span>
+						      <span class="cell4">CE2/CM1</span>
+						      <span class="cell4">Cenac Salle B</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">18h15/19h15</span>
+						      <span class="cell4">COURS ADULTES DEBUTANTS</span>
 						      <span class="cell4">Maison des associations Salle 5</span>
 						   </div>
 						</div>
