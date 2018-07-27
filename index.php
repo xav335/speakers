@@ -44,6 +44,8 @@ session_start();
 		
 		.logo {position:absolute;z-index:10;top:50%;left:53%;margin-left:-194px;margin-top:-190px;}
 		
+        .datadock {position:absolute;z-index:12;top:80%;left:43%;margin-left:-194px;margin-top:-190px;}
+		
 		.bt-part, .bt-pro {position:absolute;z-index:10;background:#be202f;width:170px;height:29px;
 				padding:5px 0px 0 20px;display:block;font-size:22px;text-transform:uppercase;color:#fff;text-decoration:none;}
 		.bt-part {top:50%;right:50%;margin-top:-235px;margin-right:120px;}
@@ -68,7 +70,7 @@ session_start();
 	<h1>Cours d'anglais Latresne</h1>
 	<a href="home-asso.php" class="bt-part">Particuliers</a>
 	<a href="home-pro.php" class="bt-pro">Professionnels</a>
-	
+	<img src="img/datadock.jpg" alt="datadock" title="datadock" class="datadock" height="114"/>
 	
 	<!-- Décoration -->
 	<img src="images/logo-home.png" alt="Speakers'Corner" title="Speakers'Corner" class="logo" />

@@ -64,70 +64,57 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="Didier Laplace" src="images/didier.jpg" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="laura cawte" src="images/Laura.jpg" /></div>
 					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>Didier DELPLACE</b> : English Trainer</span><br>
+						<span class="titre-bleu"><b>LAURA CAWTE</b> </span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
 							<ul class="list1">
-							   <li class="pucePicto">1995 : diplômé d’un MBA, Master of Business Administration à l’université de Birmingham.</li>
+							   <li class="pucePicto">Laura, native d’Angleterre est diplômée du TEFL (Teaching English as a Foreign Language).</li>
 							</ul>
 						</div>
 						<br>
-						Après plusieurs années à Birmingham en tant que formateur, Didier dispense depuis 2 ans  des cours d’anglais général à Speakers’ Corner et s’occupe des préparations aux TOEIC ET TOEFL.
+                            Elle est spécialiste de l’enseignement des tous petits.<br><br>
+                            Patiente et déterminée, elle anime les ateliers des 3-11 ans dans une atmosphère joyeuse et studieuse.
+						
 					</div>
 				</div>
 			</div>
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: left; margin-right: 22px;"><img style="width: 80%;" alt="Paul Wilson" src="img/borrowsky.png" /></div>
+					<div style="float: left; margin-right: 22px;"><img style="width: 80%;" alt="Andrea macbigney" src="images/Andrea.jpg" /></div>
 					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>Olivier BORROWSKI</b> : English Teacher</span><br>
+						<span class="titre-bleu"><b>ANDREA MCGIBNEY</b> </span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
 							<ul class="list1">
-							   <li class="pucePicto">Enseignant anglophone originaire d’Afrique du Sud.</li>
+							   <li class="pucePicto">Andrea, native d’Irlande est diplômée d’un Master 2 en traduction.</li>
 							</ul>
 						</div>
 						<br>
-						Formateur en anglais général et des affaires.
+						Elle possède une forte expérience de l’enseignement. 
                         <br><br>
-                        Professeur de théâtre en anglais pour enfants, adultes et professionnels.
+                        Avec vitalité et énergie, elle s’appuie sur son expertise pour adapter les formations aux objectifs de chaque stagiaire.
 						</div>
 				</div>
 			</div>
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img  alt="bella clough" src="images/bellaclough.jpg" /></div>
-					<span class="titre-bleu"><b>Bella Clough</b> : English Trainer</span><br>
-					<span style="font-weight: bold;">Responsable pédagogique.</span><br>
-					<div style="margin-left: 232px; border: 0px solid white;" >
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img  alt="bella clough" src="images/Aurelie.jpg" /></div>
+					<span class="titre-bleu"><b>AURELIE PEDOUSSAUT</b> </span><br>
+					<div style="margin-left: 32px; border: 0px solid white;" >
 						<ul class="list1">
-						   <li class="pucePicto">Formatrice native anglophone et formée à la pédagogie de Speakers’ Corner.</li>
+						   <li class="pucePicto">Aurélie est diplômée d’un Master 2 en anglais et d’une certification TEFL (diplôme d’enseignement international).</li>
 						</ul>
 					</div>
 					<br>
-					Forte de son expérience au R.U dans l’enseignement  de l’anglais aux jeunes enfants elle anime les ateliers en mini groupe  pour les enfants de maternelle et primaire chez Speakers’ Corner.
+                            Elle utilise sa forte expérience pour adapter le contenu de ses ateliers de travail aux adolescents et adultes.<br><br>
+                            Son enthousiasme et son dynamisme naturel rendent ses cours aussi ludiques que rigoureux.
+					
 					</div>
 			</div>
 			
-			<div class="content-center-top">
-				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: left; margin-right: 22px;"><img style="width: 80%;" alt="Paul Wilson" src="img/houston.png" /></div>
-					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>Jacqui HOUSTON</b> : English Teacher</span><br>
-						<div style="margin-left: 8px; border: 0px solid white;" >
-							<ul class="list1">
-							   <li class="pucePicto">Enseignante native d’Australie et certifiée du CELTA de l’université de Cambridge.</li>
-							</ul>
-						</div>
-						<br>
-						Expérimentée en anglais des affaires.
-                        <br><br>
-                        Spécialisée en anglais viticole et marketing.
-						</div>
-				</div>
-			</div>
+			
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
