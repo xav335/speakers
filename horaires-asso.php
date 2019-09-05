@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-only" style="background-color: #858584;">
-					<span class="titre-blanc-gros">HORAIRES 2015 /2016 Cours mini-groupes Latresne.</span>
+					<span class="titre-blanc-gros">HORAIRES 2019 /2020 Cours mini-groupes Latresne.</span>
 				</div>
 			</div>
 			
