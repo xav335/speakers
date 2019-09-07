@@ -155,18 +155,19 @@
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">18h45/19h45</span>
+						      <span class="cell4">18h45/20h15</span>
 						      <span class="cell4">Cours adultes débutants</span>
 						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   
 						   
 						    <div class="row4">
-						      <span class="cell42">VENDREDI</span>
+						      <span class="cell42">SAMEDI <br>1&nbsp;fois&nbsp;/&nbsp;mois</span>
 						      <span class="cell4">10h30/12h</span>
 						      <span class="cell4">Atelier prépa BAC dès la seconde</span>
 						      <span class="cell4">CENAC</span>
 						   </div>
+	
 						  
 						</div>
 					</div>	
