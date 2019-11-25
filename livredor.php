@@ -54,7 +54,7 @@
 			$sujet = "Speakers Corner language - Nv message Livre d'or ". $societe;
 			//echo "Envoi du message à " . $_to . "<br>";
 			
-			$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.com>\n";
+			$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.fr>\n";
 			$entete .= "MIME-version: 1.0\n";
 			$entete .= "Content-type: text/html; charset= iso-8859-1\n";
 			$entete .= "Bcc: fjavi.gonzalez@gmail.com\n";

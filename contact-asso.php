@@ -26,12 +26,12 @@ require 'admin/classes/Contact.php';
 	if ( ( $mon_action == "envoyer" ) && ( $anti_spam == "" ) ) {
 		//echo "Envoyer...<br>";
 		
-		$_to = "contact@speakerscornerlanguage.com";
+		$_to = "contact@speakerscornerlanguage.fr";
 		//$_to = "fjavi.gonzalez@gmail.com";
 		$sujet = "Speakers Corner language - Contact";
 		//echo "Envoi du message à " . $_to . "<br>";
 		
-		$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.com>\n";
+		$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.fr>\n";
 		$entete .= "MIME-version: 1.0\n";
 		$entete .= "Content-type: text/html; charset= iso-8859-1\n";
 		$entete .= "Bcc: fjavi.gonzalez@gmail.com\n";
@@ -113,7 +113,7 @@ require 'admin/classes/Contact.php';
 							Speackers' Corner : <br>
 							7, rue de la Salargue 33360 Latresne<br><br>
 							Responsable Pédagogique : 06 75 57 72 77<br><br>
-							Email: contact@speakerscornerlanguage.com<br><br>
+							Email: contact@speakerscornerlanguage.fr<br><br>
 							ASSOCIATION déposée à la préfecture de Bordeaux.<br>
 							SIRET : 753 276 047 00010<br>
 							Siège social à Latresne (33360).<br><br>

@@ -115,7 +115,7 @@
 				<div class="info-adele">
 					<span class="titre1" id="titre1">Adèle</span><br>
 					<span class="titre2">06 75 57 72 17</span><br>
-					<span class="titre3">contact@speakerscornerlanguage.com</span><br>
+					<span class="titre3">contact@speakerscornerlanguage.fr</span><br>
 				</div>
 			</div>	
 		</div>	
