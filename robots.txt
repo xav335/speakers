@@ -1,4 +1,4 @@
-# SPEAKERSCORNERLANGUAGE.COM 
+# SPEAKERSCORNERLANGUAGE.FR
 # Robot Exclusion File -- robots.txt
 # Author:  admin@iconeo.fr
 # Last Updated:  08/08/2014 11:44:00
@@ -11,4 +11,4 @@ Disallow: /stats/
 Disallow: /connexion/
 
 # Sitemap
-Sitemap: http://http://www.speakerscornerlanguage.com/sitemap.xml
+Sitemap: http://http://www.speakerscornerlanguage.fr/sitemap.xml

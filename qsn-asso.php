@@ -100,16 +100,17 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img  alt="bella clough" src="images/Aurelie.jpg" /></div>
-					<span class="titre-bleu"><b>AURELIE PEDOUSSAUT</b> </span><br>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img  alt="bella clough" src="images/Harriette.jpg" /></div>
+					<span class="titre-bleu"><b>Harriet </b> </span><br>
 					<div style="margin-left: 32px; border: 0px solid white;" >
 						<ul class="list1">
-						   <li class="pucePicto">Aurélie est diplômée d’un Master 2 en anglais et d’une certification TEFL (diplôme d’enseignement international).</li>
+						   <li class="pucePicto">Harriet, native d' Angleterre est diplômée du TEFL.</li>
 						</ul>
 					</div>
 					<br>
-                            Elle utilise sa forte expérience pour adapter le contenu de ses ateliers de travail aux adolescents et adultes.<br><br>
-                            Son enthousiasme et son dynamisme naturel rendent ses cours aussi ludiques que rigoureux.
+					  Elle utilise sa forte expérience pour adapter le contenu de ses ateliers aux stagiaires enfants, adultes et professionnels.
+					Son enthousiasme et son dynamisme naturel rendent ses cours aussi ludiques que rigoureux.
+
 					
 					</div>
 			</div>

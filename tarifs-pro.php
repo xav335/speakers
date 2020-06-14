@@ -55,16 +55,16 @@
 						   <div class="row">
 						      <span class="cell2">MINI GROUPE</span>
 						      <span class="cell">15€</span>
-						      <span class="cell">Cours en mini groupe de 8 participants maximum de même niveau</span>
+						      <span class="cell">Cours en mini groupe de 4 participants minimum et 8 maximum de même niveau</span>
 						   </div>
 						   <div class="row">
 						      <span class="cell2">COURS PARTICULIER</span>
-						      <span class="cell">40€</span>
+						      <span class="cell">50€</span>
 						      <span class="cell">Cours en face à face avec la formatrice.</span>
 						   </div>
 						   <div class="row">
 						      <span class="cell2">COURS BINÔME</span>
-						      <span class="cell">50€</span>
+						      <span class="cell">60€</span>
 						      <span class="cell">Cours entre 2 élèves (collègues, collaborateurs…) et la formatrice.</span>
 						   </div>
 						   

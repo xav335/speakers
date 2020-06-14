@@ -9,11 +9,11 @@ class Authentication extends StorageManager {
 	public function grantAccess($login,$mdp){
 		 $this->dbConnect();
 		$requete = "SELECT * FROM admin";
-		$requete .= " WHERE login = '" . mysql_real_escape_string( $login ) . "'";
-		$requete .= " AND mdp = '" . mysql_real_escape_string( $mdp ) . "'";
+		$requete .= " WHERE login = '" . mysqli_real_escape_string($this->mysqli, $login ) . "'";
+		$requete .= " AND mdp = '" . mysqli_real_escape_string($this->mysqli, $mdp ) . "'";
 		//echo $requete . "<br><br>";
-		$result = mysql_query($requete);
-		$num_rows = mysql_num_rows($result);
+		$result = mysqli_query($this->mysqli,$requete);
+		$num_rows = mysqli_num_rows($result);
 	
 		$this->dbDisConnect();
 		if ($num_rows > 0)  {
