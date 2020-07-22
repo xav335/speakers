@@ -66,7 +66,7 @@ if (empty($result)) {
 						<?php echo $messagepro ?>
 					</p>
 					<p>
-						<a class="btn btn-success pull-right" href="/admin/goldbook-list.php">Modifier</a>
+						<a class="btn btn-success pull-right" href="/admin/goldbookpro-list.php">Modifier</a>
 					</p>
 				</div>
 			</div>
