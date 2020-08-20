@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-only" style="background-color: #858584;">
-					<span class="titre-blanc-gros">TARIFS A L’HEURE 2015 /2016</span>
+					<span class="titre-blanc-gros">TARIFS</span>
 				</div>
 			</div>
 			

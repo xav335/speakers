@@ -73,7 +73,7 @@
 					<div id="table3" style="margin-left: 540px;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-					      <span class="cell3"><a  href="images/ficheinscription2019.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+					      <span class="cell3"><a  href="images/ficheinscription2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 					   </div>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 					<div id="table3" style="margin-left: 540px;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-					      <span class="cell3"><a  href="images/ficheinscription2019.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+					      <span class="cell3"><a  href="images/ficheinscription2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 					   </div>
 					</div>
 					
@@ -125,11 +125,13 @@
 					<div id="table3" style="margin-left: 540px;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-					      <span class="cell3"><a  href="images/ficheinscription2019.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+					      <span class="cell3"><a  href="images/ficheinscription2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 					   </div>
 					</div>
 				</div>
 			</div>
+			
+			
 			<div class="content-center-top" id="binomes">
 				<div class="content-center-only" style=" border-top: 10px solid #9d9d9c; background-color: #858584;">
 					<span class="titre-blanc-gros" >COURS PARTICULIERS/ EN BINÔME</span>
@@ -149,11 +151,13 @@
 					<div id="table3" style="margin-left: 540px;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-					      <span class="cell3"><a  href="images/ficheinscription2019.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+					      <span class="cell3"><a  href="images/ficheinscription2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 					   </div>
 					</div>
 				</div>
 			</div>
+			
+			
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style=" border-top: 10px solid #9d9d9c; background-color: #858584;">
@@ -170,14 +174,59 @@
 					<div id="table3" style="margin-left: 540px;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-					      <span class="cell3"><a  href="images/ficheinscription2019.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+					      <span class="cell3"><a  href="images/ficheinscription2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
 					   </div>
 					</div>
 				</div>
 			</div>
+			
+			
+			
+			<div class="content-center-top" id="skype">
+				<div class="content-center-only" style=" border-top: 10px solid #9d9d9c; background-color: #858584;">
+					<span class="titre-blanc-gros" id="pap">KIDS<br>ATELIER SKYPE</span>
+				</div>
+			</div>
+			
+			<div class="content-center-top">
+				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
+				<br>
+					<div style="text-align: center; float:left; padding: 0px 30px 20px 10px; "><img alt="photo-stage" src="images/skype.jpg" /></div>
+					<span class="titre-bleu-gros" ><b>- COURS MINI GROUPE DE 4 -</b></span>
+					
+					<div style="padding-left: 430px;">
+    					<ul>
+    					   <li>45 minutes d’atelier ludique</li>
+    					   <li>Compte rendu rédigé par le professeur</li>
+    					   <li>Des quiz, jeux à faire pendant la semaine</li>
+    					</ul>
+					</div>
+					
+					<span class="titre-bleu">Tarifs: 12€ la séance par personne</span>
+					
+					<span class="titre-bleu-gros" ><b>- COURS INDIVIDUEL -</b></span>
+					
+					<div style="padding-left: 430px;">
+    					<ul>
+    					   <li>45 minutes d’atelier ludique</li>
+    					   <li>Compte rendu rédigé par le professeur</li>
+    					   <li>Des quiz, jeux à faire pendant la semaine</li>
+    					</ul>
+					</div>
+					
+					<span class="titre-bleu">Tarifs: 37€ la séance </span>
+					<br><br>
+					
+					
+					
+
+				</div>
+			</div>	
+			
+			
 			<div class="content-center-top" id="stages">
 				<div class="content-center-only" style=" border-top: 10px solid #9d9d9c; background-color: #858584;">
-					<span class="titre-blanc-gros" id="pap">Stages 2014 / 2015 <br>... PRENEZ UNE LONGUEUR D'AVANCE!!!</span>
+					<span class="titre-blanc-gros" id="pap">Stages<br>... PRENEZ UNE LONGUEUR D'AVANCE!!!</span>
 				</div>
 			</div>
 			

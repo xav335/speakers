@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-only" style="background-color: #858584;">
-					<span class="titre-blanc-gros">HORAIRES 2019 /2020 Cours mini-groupes Latresne.</span>
+					<span class="titre-blanc-gros">HORAIRES Cours mini-groupes Latresne.</span>
 				</div>
 			</div>
 			
@@ -61,19 +61,19 @@
 						   <div class="row4">
 						      <span class="cell42">LUNDI</span>
 						      <span class="cell4">12h20/13h30</span>
-						      <span class="cell4">ADULTS</span>
-						      <span class="cell4">CCI BORDEAUX</span>
+						      <span class="cell4">SPEAKING LUNCH<br>ADULTS</span>
+						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">16h15/17h15</span>
-						      <span class="cell4">CE1/CE2</span>
+						      <span class="cell4">CP/CE1/CE2</span>
 						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">CM1(fort)/CM2 6ème</span>
+						      <span class="cell4">CM2 / 6ème</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
@@ -82,12 +82,17 @@
 						      <span class="cell4">Adultes Pré intermédiaire B1</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
-						   
+						   <div class="row4">
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						   </div>
 						   
 						   <div class="row4">
 						      <span class="cell42">MARDI</span>
 						      <span class="cell4">14h/15h45</span>
-						      <span class="cell4">Adultes Faux débutants A1-A2</span>
+						      <span class="cell4">Adultes Pré intermédiaire B1</span>
 						      <span class="cell4">CENAC</span>
 						   </div>
 						   <div class="row4">
@@ -99,45 +104,63 @@
 						    <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">CLUB ADOS 4ème/3ème</span>
+						      <span class="cell4">TEEN POWER 3ème:/Lycée</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">18h45/20h15</span>
+						      <span class="cell4">19h/20h</span>
 						      <span class="cell4">ADULTES Intermédiaire B2 - C1</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
 						   </div>
 						   
 						   <div class="row4">
 						      <span class="cell42">MERCREDI</span>
+						      <span class="cell4">10h/10h45</span>
+						      <span class="cell4">SKYPE KIDS</span>
+						     <span class="cell4">VISIO</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">11h/11h45</span>
+						      <span class="cell4">SKYPE KIDS</span>
+						     <span class="cell4">VISIO</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
 						      <span class="cell4">10h30/11h30</span>
-						      <span class="cell4">COFFEE BREAK conversation niveau avancé</span>
+						      <span class="cell4">COFFEE BREAK <br>conversation niveau avancé</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">14h/15h</span>
-						      <span class="cell4">CE1(fort) - CE2 CM1</span>
-						     <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
 						      <span class="cell4">15h/16h</span>
-						      <span class="cell4">LYCEE</span>
+						      <span class="cell4">CE2 / CM1</span>
+						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell42"></span>
+						      <span class="cell4">16h30/17h30</span>
+						      <span class="cell4">Maternelles</span>
 						      <span class="cell4">CENAC</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">16h15/17h15</span>
-						      <span class="cell4">GS CP</span>
-						      <span class="cell4">CENAC</span>
+						      <span class="cell4">17h45/18h30</span>
+						      <span class="cell4">SKYPE KIDS</span>
+						     <span class="cell4">VISIO</span>
 						   </div>
-						    <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">17h15/18h</span>
-						      <span class="cell4">PS MS</span>
-						     <span class="cell4">CENAC</span>
+						   <div class="row4">
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
 						   </div>
 						   
 						   
@@ -150,21 +173,27 @@
 						    <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">6ème - 5ème</span>
+						      <span class="cell4">5ème / 4ème</span>
 						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">18h45/20h15</span>
+						      <span class="cell4">18h45/19h45</span>
 						      <span class="cell4">Cours adultes débutants</span>
-						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						       <span class="cell4">CENAC</span>
+						   </div>
+						   <div class="row4">
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
+						      <span class="cell4"></span>
 						   </div>
 						   
 						   
 						    <div class="row4">
 						      <span class="cell42">SAMEDI <br>1&nbsp;fois&nbsp;/&nbsp;mois</span>
-						      <span class="cell4">10h30/12h</span>
-						      <span class="cell4">Atelier prépa BAC dès la seconde</span>
+						      <span class="cell4">10h/12h</span>
+						      <span class="cell4">Atelier prépa TOEIC</span>
 						      <span class="cell4">CENAC</span>
 						   </div>
 	
@@ -191,6 +220,13 @@
 					      <span class="cell3"><a href="https://www.google.fr/maps/place/44%C2%B047%2706.5%22N+0%C2%B029%2726.2%22W/@44.7869659,-0.4903107,16z/data=!4m2!3m1!1s0x0:0x0" target="_blank">
 					       	<img id="salargue" alt="salargue" src="images/augustinot.jpg" /></a></span>
 					      <span class="cell3"><b>Salle Augustinot</b> : prendre la rue du Bourg, puis 1ère à droite après la poste, puis 1er chemin à gauche.</span>
+					   </div>
+					</div>
+					<div id="table3" style="margin-left: 40px;">
+					   <div class="row3">
+					      <span class="cell3"><a href="https://www.google.fr/maps/place/20+All%C3%A9e+Bernadotte,+33360+Cenac/@44.7832513,-0.4865979,16.09z/data=!4m5!3m4!1s0xd55249aa31012f7:0x527fd0fa841f2faf!8m2!3d44.7835462!4d-0.4775989" target="_blank">
+					       	<img id="salargue" alt="salargue" src="images/bernadotte.jpg" /></a></span>
+					      <span class="cell3"><b>Cenac </b> : 20 rue Bernadotte</span>
 					   </div>
 					</div>
 				</div>

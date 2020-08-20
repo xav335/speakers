@@ -7,7 +7,9 @@
 	         <li><a href='formules-asso.php#kids'><span>Anglais général</span></a></li>
 	         <li><a href='formules-asso.php#binomes'><span>Particuliers / Binômes</span></a></li>
 	         <li class='last'><a href='formules-asso.php#pap'><span>"Pret à partir"</span></a></li>
-	          <li><a href='formules-asso.php#stages'><span>Stages 2014 / 2015</span></a></li>
+	         <li><a href='formules-asso.php#skype'><span>Atelier Skype</span></a></li>
+	         <li><a href='formules-asso.php#stages'><span>Stages</span></a></li>
+	         
 	      </ul>
 	   </li><li id="<?php echo $classMenuBackgroung[3] ?>"><a href='tarifs-asso.php'><span class="<?php echo $classMenuColor[3] ?>" >Tarifs</span></a>  
 	   </li><li id="<?php echo $classMenuBackgroung[4] ?>"><a href='horaires-asso.php'><span class="<?php echo $classMenuColor[4] ?>" >Horaires</span></a> 
