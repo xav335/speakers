@@ -88,7 +88,7 @@ session_start();
 					$i++;
 				?>
 			<p>
-				<?php echo $value['accroche'] ?> 
+				<?php echo $value['titre'] ?> 
 				<span style="padding-bottom: 8px;"><?php echo $value['accroche'] ?></span>
 			</p>
 			<a href="news.php?type=<?php  ($value['type']==1) ? $type="pro": $type= "asso"; echo $type; ?>&id=<?php echo  $value['id_news'] ?>" title="+ de détails">de détails</a>
