@@ -58,12 +58,12 @@
 						   <div class="row">
 						      <span class="cell2">ENFANTS DES 3 ANS</span>
 						      <span class="cell">12€</span>
-						      <span class="cell">30€</span>
+						      <span class="cell">37€</span>
 						   </div>
 						   <div class="row">
 						      <span class="cell2">SCOLAIRES/ ADULTES</span>
 						      <span class="cell">12€</span>
-						      <span class="cell">30€</span>
+						      <span class="cell">37€</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">TEA TIME</span>
@@ -72,12 +72,12 @@
 						   </div>
 						    <div class="row">
 						      <span class="cell2">PROFESSIONNELS</span>
-						      <span class="cell">17€</span>
-						      <span class="cell">40€</span>
+						      <span class="cell">15€</span>
+						      <span class="cell">50€</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">COURS BINÔME</span>
-						      <span class="cell">20€ / étudiant</span>
+						      <span class="cell">23€ / étudiant</span>
 						      <span class="cell">-</span>
 						   </div>
 						</div>

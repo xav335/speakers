@@ -71,7 +71,16 @@
 						</div>
 					</div>	
 					
+					<div id="table3" style="margin-left: 540px;">
+						   <div class="row3">
+						      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
+						      <span class="cell3"><a  href="images/ficheinscriptionpro2020.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
+						   </div>
+						</div>
+					
 				</div>
+				
+				
 			</div>
 			
 			<div class="content-center-top">
