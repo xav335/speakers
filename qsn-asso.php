@@ -64,18 +64,18 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="laura cawte" src="images/Laura.jpg" /></div>
+					<div style="float: right; margin: 2px 2px 2px 42px;"><img style="width: 80%;" alt="laura cawte" src="images/rosanna.jpg" /></div>
 					<div style="margin-left: 42px;">
-						<span class="titre-bleu"><b>LAURA CAWTE</b> </span><br>
+						<span class="titre-bleu"><b>ROSANNA STAPLE</b> </span><br>
 						<div style="margin-left: 8px; border: 0px solid white;" >
 							<ul class="list1">
-							   <li class="pucePicto">Laura, native d’Angleterre est diplômée du TEFL (Teaching English as a Foreign Language).</li>
+							   <li class="pucePicto">Formatrice native du Royaume Uni et diplômée du TEFLE (diplôme d’enseignement de l’anglais)</li>
 							</ul>
 						</div>
 						<br>
-                            Elle est spécialiste de l’enseignement des tous petits.<br><br>
-                            Patiente et déterminée, elle anime les ateliers des 3-11 ans dans une atmosphère joyeuse et studieuse.
-						
+                        Elle anime les formations d’anglais technique orientées aéronautique.<br>
+                        Rosanna utilise sa forte expérience pour adapter le contenu de ses ateliers de travail aux étudiants, apprentis et adultes.<br><br>
+                        Son enthousiasme et sa force de travail rendent ses cours aussi ludiques que rigoureux.
 					</div>
 				</div>
 			</div>

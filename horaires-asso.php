@@ -60,28 +60,17 @@
 						   
 						   <div class="row4">
 						      <span class="cell42">LUNDI</span>
-						      <span class="cell4">12h20/13h30</span>
-						      <span class="cell4">SPEAKING LUNCH<br>ADULTS</span>
-						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">16h15/17h15</span>
-						      <span class="cell4">CP/CE1/CE2</span>
+						      <span class="cell4">16h20/17h20</span>
+						      <span class="cell4">CE1 / CE2</span>
 						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
 						      <span class="cell4">CM2 / 6ème</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						      <span class="cell4">Maison des associations LATRESNE</span>
 						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">18h15/19h45</span>
-						      <span class="cell4">Adultes Pré intermédiaire B1</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
-						   </div>
+						  
 						   <div class="row4">
 						      <span class="cell4"></span>
 						      <span class="cell4"></span>
@@ -91,27 +80,27 @@
 						   
 						   <div class="row4">
 						      <span class="cell42">MARDI</span>
-						      <span class="cell4">14h/15h45</span>
-						      <span class="cell4">Adultes Pré intermédiaire B1</span>
-						      <span class="cell4">CENAC</span>
+						      <span class="cell4">14h15/15h45</span>
+						      <span class="cell4">ELEMENTAIRE</span>
+						      <span class="cell4">24 ALLEE BERNADOTTE CENAC</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">16h15/17h15</span>
-						      <span class="cell4">CM1/CM2</span>
-						      <span class="cell4">Ecole de Bouliac</span>
+						      <span class="cell4">MOYENNE SECTION – GRANDE SECTION </span>
+						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 						    <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">TEEN POWER 3ème:/Lycée</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						      <span class="cell4">17h45/18h45</span>
+						      <span class="cell4">TEEN POWER 4ème/3ème</span>
+						      <span class="cell4">Maison des associations LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">19h/20h</span>
-						      <span class="cell4">ADULTES Intermédiaire B2 - C1</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						      <span class="cell4">INTERMEDIAIRE</span>
+						      <span class="cell4">Maison des associations LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell4"></span>
@@ -122,39 +111,21 @@
 						   
 						   <div class="row4">
 						      <span class="cell42">MERCREDI</span>
-						      <span class="cell4">10h/10h45</span>
-						      <span class="cell4">SKYPE KIDS</span>
-						     <span class="cell4">VISIO</span>
+						      <span class="cell4">10h/11h</span>
+						      <span class="cell4">COFFEE BREAK CONVERSATION</span>
+						     <span class="cell4">Maison des associations LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">11h/11h45</span>
-						      <span class="cell4">SKYPE KIDS</span>
-						     <span class="cell4">VISIO</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">10h30/11h30</span>
-						      <span class="cell4">COFFEE BREAK <br>conversation niveau avancé</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">15h/16h</span>
+						      <span class="cell4">14h/15h</span>
 						      <span class="cell4">CE2 / CM1</span>
-						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						      <span class="cell4">24 ALLEE BERNADOTTE CENAC</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell42"></span>
-						      <span class="cell4">16h30/17h30</span>
-						      <span class="cell4">Maternelles</span>
-						      <span class="cell4">CENAC</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">17h45/18h30</span>
-						      <span class="cell4">SKYPE KIDS</span>
-						     <span class="cell4">VISIO</span>
+						      <span class="cell4">15h/15h45</span>
+						      <span class="cell4">GS - CP - CE1</span>
+						      <span class="cell4">24 ALLEE BERNADOTTE CENAC</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell4"></span>
@@ -166,21 +137,15 @@
 						   
 						    <div class="row4">
 						      <span class="cell42">JEUDI</span>
-						      <span class="cell4">16h15/17h15</span>
-						      <span class="cell4">CM1/CM2</span>
+						      <span class="cell4">16h20/17h20</span>
+						      <span class="cell4">CM1 / CM2</span>
 						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 						    <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">5ème / 4ème</span>
-						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
-						   </div>
-						   <div class="row4">
-						      <span class="cell42"></span>
-						      <span class="cell4">18h45/19h45</span>
-						      <span class="cell4">Cours adultes débutants</span>
-						       <span class="cell4">CENAC</span>
+						      <span class="cell4">COLLEGE 5ème / 4ème</span>
+						       <span class="cell4">Maison des associations LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell4"></span>
@@ -191,10 +156,10 @@
 						   
 						   
 						    <div class="row4">
-						      <span class="cell42">SAMEDI <br>1&nbsp;fois&nbsp;/&nbsp;mois</span>
-						      <span class="cell4">10h/12h</span>
-						      <span class="cell4">Atelier prépa TOEIC</span>
-						      <span class="cell4">CENAC</span>
+						      <span class="cell42">VENDREDI</span>
+						      <span class="cell4">16h20/17h20</span>
+						      <span class="cell4">CE1 / CE2</span>
+						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 	
 						  
