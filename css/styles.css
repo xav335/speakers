@@ -53,10 +53,11 @@ body {background: #282828 ;font-family:Century, Times, sans-serif; color: #FFF; 
 .titre-blanc-gros {color:#FFF;font-size:20px;text-transform:uppercase; display:block; padding:0px 0px 10px 0px; text-align: center;}
 
 
-#table {display: table; width: 600px; text-align:center; border: 1px solid white; padding:10px 10px 10px 10px;  margin-left: 165px;}
+#table {display: table; width: 650px; text-align:center; border: 1px solid white; padding:10px 10px 10px 10px;  margin-left: 165px;}
 .row {display: table-row; }
 .cell {display: table-cell; padding:10px 10px 10px 10px; border: 1px solid grey;}
-.cell2 {display: table-cell; padding:10px 10px 10px 10px; border: 1px solid #282828; background-color: #858584;}
+.cell2 {display: table-cell; padding:10px 10px 10px 10px; border: 1px solid #282828; background-color: #858584; }
+.cell22 {display: table-cell; padding:10px 10px 10px 10px; border: 1px solid #282828; background-color: #858584; text-align: left; font-weight: bold;}
 
 #table3 {display: table;  padding:10px 10px 10px 10px; border: 0px solid white;}
 .row3 {display: table-row; }

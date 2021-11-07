@@ -42,7 +42,7 @@
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-left">
-					<span class="titre-bleu">SPEAKERS’CORNER propose des formations en anglais pour les particuliers et les professionnels.</span>
+					<span class="titre-bleu">SPEAKERS’CORNER propose des formations en anglais pour les particuliers et les professionnels.<br><br></span>
 					<div style="float: left; padding: 0px 15px 10px 0px; text-align:center;" >
 						<img style="padding-bottom: 4px;" alt="photo-groupe" src="images/adele-asso.jpg" /><br>
 						<span class="texte">Adele Planteur<br>
@@ -52,9 +52,10 @@
 					L’accent est mis sur la communication dès la 1ère séance :<br><br>
 					<b>Expression orale :</b> s’exprimer sur des sujets concrets, utiles et stimulants car seule la pratique de l'oral rend possible le développement de <b>réflexes et d'automatismes</b> linguistiques.<br><br>
 					<b>Compréhension orale :</b> privilégier l’écoute et la compréhension de l’oral avec des supports modernes et authentiques.<br><br>
-					<br><br><br><br>
+					<br><br><br><br><br><br>
 					<span class="titre-bleu" style="text-align: center;">L’UNIVERS SPEAKERS’CORNER :</span>
-					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metroasso.png" /></div>
+					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metroasso.png" /><br><br><br><br><br></div>
+					<br>
 					<ul class="list1">
 					   <li class="pucePicto4">Des modules en mini groupes avec une intéraction stimulante.</li>
 					   <li class="pucePicto4">Des modules en cours particuliers ou en binôme pour progresser à son rythme.</li>
@@ -73,6 +74,10 @@
 									Actualités Facebook
 								</a>
 							</span>
+					</div>
+					<div class="content-center-right-bottom">
+							
+							<span style="display:block; text-align: center;"><a href="https://www.linkedin.com/in/adele-planteur-960851197/" target="_blank"><img  alt="photo-groupe" src="images/linkedin.png"/></a></span>
 					</div>
 					<div class="content-center-right-bottom">
 						<div style="padding-top: 16px; padding-bottom: 26px;"><span class="titre-blanc-gros">Anglais Pour Tous !</span></div>

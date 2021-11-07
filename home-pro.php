@@ -53,6 +53,7 @@
 					Les formations professionnelles se déroulent au sein des entreprises ou dans nos locaux. <br><br>
 					Elles ont pour but de familiariser les professionnels avec l’anglais employé dans les situations concrètes et courantes liées au monde des affaires. 
 					Initiation, formation, perfectionnement des acquis vous seront proposés pour optimiser vos performances à l’international.<br><br>
+					<br>
 					<span class="titre-bleu">Les stagiaires formés savent :</span>
 					<ul class="list1">
 					   <li class="pucePicto">CONSTRUIRE UN ARGUMENTAIRE ET NEGOCIER.</li>
@@ -62,7 +63,7 @@
 					   <li class="pucePicto">UTILISER LES SRUTURES IDIOMATIQUES DE L’ANGLAIS.</li>
 					   <li class="pucePicto">DEVELOPPER LEURS COMPETENCES D’ECOUTE ET  D’EXPRESSION.</li>
 					</ul>
-					<br>
+					<br><br><br>
 					<span class="titre-bleu" style="text-align: center;">L’UNIVERS SPEAKERS’CORNER PRO :</span>
 					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metropro.png" /></div>
 					<ul class="list12">
@@ -72,15 +73,21 @@
 					   <li class="pucePicto3">Possibilité de  financer sa formation en anglais par le CPF prise en charge à 100%. </li>
 					</ul>
 					</span>
+					
 				</div>
 				<div class="content-center-right-pro">
 					<div class="content-center-right-top">
 							<span style="display:block; text-align: center;"><img  alt="photo-groupe" src="images/fb-crown.png"/></span>
+							
 							<span class="titre-blanc">
 								<a href="https://www.facebook.com/pages/SPEAKERSCORNER/203855012983687" target="_blank">
 									Actualités Facebook
 								</a>
 							</span>
+					</div>
+					<div class="content-center-right-bottom">
+							
+							<span style="display:block; text-align: center;"><a href="https://www.linkedin.com/in/adele-planteur-960851197/" target="_blank"><img  alt="photo-groupe" src="images/linkedin.png"/></a></span>
 					</div>
 					<div class="content-center-right-bottom">
 						<div style="padding-top: 10px; padding-bottom: 16px;"><span class="titre-blanc-gros">Anglais des affaires</span></div>
