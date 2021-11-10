@@ -78,7 +78,7 @@
 						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_pipplettest/53931722200039_pippletest" target="_blank">Inscrivez-vous en ligne</a></span></span>
 						   </div>
 						   <div class="row">
-						      <span class="cell22">6- ANGLAIS REFRESH 30 HEURES + PIPPLET FLEX</span>
+						      <span class="cell22">6- ANGLAIS REFRESH 20 HEURES + PIPPLET FLEX</span>
 						      <span class="cell"></span>
 						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_pipplet/53931722200039_pipplet" target="_blank">Inscrivez-vous en ligne</a></span></span>
 						   </div>

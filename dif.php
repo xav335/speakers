@@ -53,8 +53,14 @@
 						<span class="titre-bleu">1 - DES FORMATIONS 100% FINANCEES.</span>
 						Agrée organisme de formation, les salariés en CDI/CDD et les demandeurs d’emploi peuvent bénéficier d’une formation en anglais
 						 qui sera financée à 100% dans le cadre du CPF.<br><br>
+						 
+						 
+                        Infos légale et réglementaire CPF : 
+                        <a href="https://www.service-public.fr/particuliers/vosdroits/F10705" target="_blank">https://www.service-public.fr/particuliers/vosdroits/F10705</a>
+						 
+						 <br><br><br>
 						<a href="contact-pro.php">Contactez notre responsable pour les démarches à entreprendre.</a>
-						<br><br><br>
+						<br><br>
 						
 						<span class="titre-bleu">2 - DES FORMATIONS AJUSTEES A VOS BESOINS.</span>
 						Avec Speakers’ Corner PRO chacun peut choisir son programme de formation
