@@ -87,7 +87,7 @@
 					</div>
 					<div class="content-center-right-bottom">
 							
-							<span style="display:block; text-align: center;"><a href="https://www.linkedin.com/in/adele-planteur-960851197/" target="_blank"><img  alt="photo-groupe" src="images/linkedin.png"/></a></span>
+							<span style="display:block; text-align: center;"><a href="https://www.linkedin.com/in/adele-planteur-960851197/" target="_blank"><img  alt="linkedin" src="images/linkedin.png"/></a></span>
 					</div>
 					<div class="content-center-right-bottom">
 						<div style="padding-top: 10px; padding-bottom: 16px;"><span class="titre-blanc-gros">Anglais des affaires</span></div>
