@@ -45,11 +45,13 @@
 					<span class="titre-blanc-gros">CATALOGUE CPF</span>
 				</div>
 			</div>
-			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
+				    <div class="content-center-only" >
+					<span class="titre-noir-gros">TAUX DE SATISFACTION AUX FORMATION 97% (analyse QDS)</span>
+				    </div>
 					<div style="text-align: center;">	<br><br>
-						<img style="padding: 20px 30px 20px 30px; float: left; width: 180px;" alt="photo-groupe" src="images/TOEIC.png" /><br>
+						<img style="padding: 20px 30px 20px 30px; float: left; width: 180px;" alt="photo-groupe" src="images/TOEIC3.png" /><br>
 						
 						<div id="table">
 						   <div class="row">
