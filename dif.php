@@ -50,52 +50,35 @@
 					<div style="margin-left: 32px; border: 0px solid white;" >
 						<div style="float: right; margin-right: 22px;"><img style="width: 85%;" alt="adele planteur" src="images/drapeauauvent.png" /></div>
 						
-						<span class="titre-bleu">1 - DES FORMATIONS 100% FINANCEES.</span>
-						Agrée organisme de formation, les salariés en CDI/CDD et les demandeurs d’emploi peuvent bénéficier d’une formation en anglais
-						 qui sera financée à 100% dans le cadre du CPF.<br><br>
+						<span class="titre-bleu">1 - ANGLAIS 10 HEURES + TOEIC</span>
+                        <br>
+                        <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS10HEURESTOEIC/75327604700010_ANGLAIS10HEURESTOEIC" target="_blank">
+                            LIEN VERS LA FORMATION</a>
 						 
-						 
-                        Infos légale et réglementaire CPF : 
-                        <a href="https://www.service-public.fr/particuliers/vosdroits/F10705" target="_blank">https://www.service-public.fr/particuliers/vosdroits/F10705</a>
-						 
-						 <br><br><br>
-						<a href="contact-pro.php">Contactez notre responsable pour les démarches à entreprendre.</a>
 						<br><br>
+
+						<span class="titre-bleu">2 - ANGLAIS 15 HEURES +  TOEIC</span>
+                        <br>
+                        <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS15HEURES/75327604700010_ANGLAIS15HEURES" target="_blank">
+                            LIEN VERS LA FORMATION</a>
+
+                        <br><br>
 						
-						<span class="titre-bleu">2 - DES FORMATIONS AJUSTEES A VOS BESOINS.</span>
-						Avec Speakers’ Corner PRO chacun peut choisir son programme de formation
-						<div style="margin-left: 10px; border: 0px solid white;" >
-							<ul class="list1">
-							   <li class="pucePicto">en cours individuel, en binôme, en mini groupe</li>
-							   <li class="pucePicto">en anglais général ou professionnel</li>
-							   <li class="pucePicto">en formule intensive ou extensive.</li>
-							</ul>
-						</div>
-						<br>
-						
-						<span class="titre-bleu">3 - DES FORMATIONS FACILES A VIVRE.</span>
-						Le formateur se déplace au sein de votre entreprise avec son matériel afin d’éviter au stagiaire les questions logistiques 
-						et ainsi pouvoir se concentrer entièrement et seulement sur son apprentissage.<br>
-						Le calendrier de formation est établi avec le stagiaire en fonction de ses disponibilités.<br> 
-						Les horaires sont flexibles pour intégrer le mieux possible la formation dans la vie professionnelle.
-						<br><br><br>
-						<div style="float: right; margin-right: 22px;"><img style="" alt="adele planteur" src="images/bigben.jpg" /></div>
-						<span class="titre-bleu">4 - DES FORMATIONS SUIVIES ET RIGOUREUSES.</span>
-						Toute formation est composée d’étapes précises et essentielles :
-						<div style="margin-left: 10px; border: 0px solid white;" >
-							<ul class="list1">
-							   <li class="pucePicto">La rencontre permettant la définition des objectifs professionnels et pédagogiques</li>
-							   <li class="pucePicto">Le test d’entrée pour évaluer le niveau du stagiaire</li>
-							   <li class="pucePicto">Le test de mi-parcours.</li>
-							   <li class="pucePicto">Le bilan pédagogique et les conseils de suivi de formation.</li>
-							</ul>
-						</div>
+						<span class="titre-bleu">3 - ANGLAIS 30 HEURES + TOEIC</span>
+                        <br>
+                        <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS30HEURES/75327604700010_ANGLAIS30HEURES" target="_blank">
+                            LIEN VERS LA FORMATION</a>
+
+                        <br><br>
+                        <span class="titre-bleu">3 - ANGLAIS 40 HEURES + TOEIC</span>
+                        <br>
+                        <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS40HEURES/75327604700010_ANGLAIS40HEURES" target="_blank">
+                            LIEN VERS LA FORMATION</a>
+
+                        <br><br>
 					</div>
 					<div id="table3" style="margin-left: 540px;">
-						   <div class="row3">
-						      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-						      <span class="cell3"><a  href="images/ficheinscriptionpro2021.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
-						   </div>
+						  
 						</div>
 						<div id="table3" style="margin-left: 540px;">
 						   <div class="row3">
