@@ -52,39 +52,29 @@
 				    </div>
 					<div style="text-align: center;">	<br><br>
 						<img style="padding: 20px 30px 20px 30px; float: left; width: 180px;" alt="photo-groupe" src="images/TOEIC3.png" /><br>
-						
-						<div id="table">
-						   <div class="row">
-						      <span class="cell22">1- ANGLAIS PAR VISIO 20 HEURES + TOEIC BRIDGE</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_TOEICBRIDGEINTENSIF/53931722200039_toeicbridgeskype" target="_blank">Inscrivez-vous en ligne</a></span>
-						   </div>
-						   <div class="row">
-						      <span class="cell22">2- ANGLAIS PAR VISIO 50 HEURES + TOEIC</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_SKYPE50H/53931722200039_3130" target="_blank">Inscrivez-vous en ligne</a></span></span>
-						   </div>
-						   <div class="row">
-						      <span class="cell22">3- ANGLAIS CONVERSATION 15 HEURES + PIPPLET FLEX</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_ENGLISHCONVERSATIONPIPPLET/53931722200039_ENGLISHCONVERSATION" target="_blank">Inscrivez-vous en ligne</a></span></span>
-						   </div>
-						   <div class="row">
-						      <span class="cell22">4- ANGLAIS BUSINESS 35 HEURES + TOEIC</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_toeic40/53931722200039_TOEIC38" target="_blank">Inscrivez-vous en ligne</a></span></span>
-						   </div>
-						   <div class="row">
-						      <span class="cell22">5- ANGLAIS REFRESH 30 HEURES + PIPPLET FLEX</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_pipplettest/53931722200039_pippletest" target="_blank">Inscrivez-vous en ligne</a></span></span>
-						   </div>
-						   <div class="row">
-						      <span class="cell22">6- ANGLAIS REFRESH 20 HEURES + PIPPLET FLEX</span>
-						      <span class="cell"></span>
-						      <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/53931722200039_pipplet/53931722200039_pipplet" target="_blank">Inscrivez-vous en ligne</a></span></span>
-						   </div>
-						</div>
+
+                        <div id="table">
+                            <div class="row">
+                                <span class="cell22">1 - ANGLAIS 10 HEURES + TOEIC </span>
+                                <span class="cell"></span>
+                                <span class="cell"> <span class="cell"> <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS10HEURESTOEIC/75327604700010_ANGLAIS10HEURESTOEIC" target="_blank">Inscrivez-vous en ligne</a></span>
+                            </div>
+                            <div class="row">
+                                <span class="cell22">2 - ANGLAIS 15 HEURES +  TOEIC </span>
+                                <span class="cell"></span>
+                                <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS15HEURES/75327604700010_ANGLAIS15HEURES" target="_blank">Inscrivez-vous en ligne</a></span></span>
+                            </div>
+                            <div class="row">
+                                <span class="cell22">3 - ANGLAIS 30 HEURES + TOEIC </span>
+                                <span class="cell"></span>
+                                <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS30HEURES/75327604700010_ANGLAIS30HEURES" target="_blank">Inscrivez-vous en ligne</a></span></span>
+                            </div>
+                            <div class="row">
+                                <span class="cell22">4 - ANGLAIS 40 HEURES + TOEIC </span>
+                                <span class="cell"></span>
+                                <span class="cell"> <span class="cell"><a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/75327604700010_ANGLAIS40HEURES/75327604700010_ANGLAIS40HEURES" target="_blank">Inscrivez-vous en ligne</a></span></span>
+                            </div>
+                        </div>
 					</div>	
 					
 					
