@@ -47,15 +47,16 @@ session_start();
         .datadock {position:absolute;z-index:12;top:80%;left:40%;margin-left:-194px;margin-top:-190px;}
         .toeic {position:absolute;z-index:12;top:80%;left:43%;margin-left:339px;margin-top:-220px;}
 		
-		.bt-part, .bt-pro {position:absolute;z-index:10;background:#be202f;width:170px;height:29px;
+		.bt-part, .bt-pro, .bt-qualio {position:absolute;z-index:10;background:#be202f;width:170px;height:29px;
 				padding:5px 0px 0 20px;display:block;font-size:22px;text-transform:uppercase;color:#fff;text-decoration:none;}
 		.bt-part {top:50%;right:50%;margin-top:-235px;margin-right:120px;}
 		.bt-pro {top:50%;left:50%;margin-top:-235px;margin-left:120px;width:196px;padding-left:10px;background:#000;}
+        .bt-qualio {top:92%;right:60%;margin-top:-235px;margin-left:12px;width:120px;padding-left:10px;background:#2b669a;}
 		
 		.bt-part:hover, .bt-pro:hover {background-position:left bottom;}
 		.bt-part:hover {color:#be202f; background:#FFF;}
 		.bt-pro:hover {color:#000;background:#FFF;}
-		
+        .bt-qualio:hover {color:#000;background:#FFF;}
 		
 		/* Actualité */
 		.actualite {background:url('img/bg-actualite.png') no-repeat center 30px;position:absolute;
@@ -71,7 +72,7 @@ session_start();
 	<h1>Cours d'anglais Latresne</h1>
 	<a href="home-asso.php" class="bt-part">Particuliers</a>
 	<a href="home-pro.php" class="bt-pro">Professionnels</a>
-	<img src="images/qualiopi.jpg" alt="datadock" title="datadock" class="datadock" height="124"/>
+    <a href="images/certif-qualopi.pdf" target="_blank" class="bt-qualio">Qualiopi</a>
 	<img src="images/TOEIC2.png" alt="Speakers'Corner" title="toeic" class="toeic" height="160" />
 	
 	<!-- Décoration -->

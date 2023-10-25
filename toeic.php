@@ -45,7 +45,6 @@
 				<div class="content-center-only" style="background-color: #858584;">
 					
 					<div style="text-align: center;">
-					<span class="titre-blanc">FORMATION / PREPARATION</span> 
 					<img  alt="toeic" src="images/logo_TOEIC1.png" /></div>
 				</div>
 			</div>
@@ -53,43 +52,140 @@
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
 					<div style="float: right; margin:22px 0px 22px 22px;"><img style="width: 75%;" alt="adele planteur" src="images/gerkin.jpg" /></div>
 					<div style="margin-left: 32px; border: 0px solid white;" >
-						<span class="titre-bleu">Objectifs:</span>	
-						
-							<ul class="list1">
-							   <li class="pucePicto">Acquérir et maîtriser les techniques qui vous permettront de répondre correctement aux questions des divers types d'exercices que comprend l'examen TOEIC®.</li>
-							   <li class="pucePicto">Rafraîchir et approfondir vos connaissances générales en anglais (lexique, grammaire...)</li>
-							   <li class="pucePicto">Vous permettre de vous sentir en mesure de répondre aux exigences professionnelles en matière de communication.</li>
-							</ul>
-						<br>
-						<span class="titre-bleu">Programme de la formation</span>	
-						
-						Evaluation du niveau du stagiaire et révisions.<br>
-						Examen des connaissances actuelles, des points forts et des axes d'amélioration.<br>
-						<b>Consolidation au niveau des structures grammaticales fondamentales</b><br><br>
-						<b>Travail intensif sur la compréhension orale de la langue :</b><br>
-					
-						<ul class="list1">
-						   <li class="pucePicto">Ecoute et reconstitution de monologues,  dialogues enregistrés entre plusieurs personnes en situation professionnelle.</li>
-						   <li class="pucePicto">Comprendre le récit d'un fait d'actualité ou d'un fait divers : savoir en tirer les éléments principaux (date, lieu, actions, motivations…) </li>
-						</ul>
-						<b>Perfectionnement à la compréhension écrite :</b><br>
-						<ul class="list1">
-						   <li class="pucePicto">Travail d'enrichissement du vocabulaire professionnel et commercial.</li>
-						   <li class="pucePicto">Savoir lire et analyser les documents utilisés en situation professionnelle an anglais : emails, synthèses, comptes-rendus, notices, documentations…</li>
-						</ul>
-						<b>Test blanc final  :</b><br>
-						<ul class="list1">
-						   <li class="pucePicto">Mise en situation d'examen avec un équivalent du score du TOEIC pour évaluer et valider votre progression  </li>
-						</ul>
-						<br>
-						<span class="titre-bleu">Durée  de la formation</span>	
-						Durée de la formation : 25 heures  (en fonction du niveau de départ B1).
-						<br><br><br>
-						<span class="titre-bleu">Organisation de la formation</span>	
-						Notre Responsable pédagogique est à votre disposition pour vous proposer, en fonction de votre niveau 
-						initial et de vos objectifs, la formule la plus adaptée.  <br><br>
-						Classes de 2 heures par semaine en individuel i.e. face à face avec le professeur.
-						<br><br>
+                        <span class="titre-bleu-gros">Formation TOEIC</span>
+                        <p>Vous trouverez ici nos formations pour la préparation aux tests TOEIC.  <br>
+                        Il est désormais possible de passer le test TOEIC® Listening and Reading depuis chez soi grâce à la surveillance à distance.
+                        La dernière heure de formation est réservée au passage de la certification. <br> <br>
+                        TOEIC Listening & Reading avec surveillance à distance : <br>
+                        niveaux évalués: Elémentaire à avancé (A2 - C1 sur le CECRL) <br> <br>
+                        Votre formation peut être entièrement financée par votre compte personnel de formation:<br>
+                        <b>Rendez-vous dans notre onglet <a href="cpf-catalogue.php">«  catalogue formation »</a>  pour accéder directement à sa description sur le site moncompteformation.fr</b>
+                            <br>Durée 10h – 15h – 30h – 40h
+                        </p>
+						<span class="titre-bleu-gros">Programme de la formation - Préparation TOEIC</span>
+
+                        <span id="1" class="titre-bleu">1.	Le cursus de formation :</span>
+                        <p>Dans un contexte d’internationalisation croissante, les entreprises requièrent de leurs collaborateurs qu’ils maîtrisent la langue anglaise,
+                        la langue internationale des affaires. <br>
+                            Ce module vous permettra de revoir et d’appliquer les fondamentaux de l’anglais des affaires.</p>
+
+                        <span id="2" class="titre-bleu">2.	Contenu du Programme :</span>
+                        <b>Phase 1 : Consolidation</b><br>
+                        <ul class="list1">
+                            <li class="pucePicto">Amélioration de votre niveau d’anglais.</li>
+                            <li class="pucePicto">Maîtrise des différentes structures grammaticales et de la logique de la langue anglaise. </li>
+                        </ul>
+                        <b>Phase 2 : Découverte</b><br>
+                        <ul class="list1">
+                            <li class="pucePicto">Exercices d’écoute et de lecture de données afin de s’habituer à la langue anglaise à l’oral.</li>
+                            <li class="pucePicto">Pratique du QCM (méthodes et astuces)</li>
+                            <li class="pucePicto">Acquisition de techniques permettant au candidat de gérer son temps.</li>
+                        </ul>
+
+                       <b>Appréhender le test du TOEIC L&R</b><br>
+                        <ul class="list1">
+                            <li class="pucePicto">Partie 1 : Les photographies</li>
+                            <li class="pucePicto">Partie 2 : Question-réponse</li>
+                            <li class="pucePicto">Partie 3 : Les conversations courts</li>
+                            <li class="pucePicto">Partie 4 : Petits discours</li>
+                            <li class="pucePicto">Partie 5 : Les Phrases incomplètes</li>
+                            <li class="pucePicto">Partie 6 : Text completion</li>
+                            <li class="pucePicto">Partie 7 Compréhension en lecture</li>
+                            <li class="pucePicto">Les explications de chaque section du test TOEIC</li>
+                            <li class="pucePicto">Les conseils et astuces de base</li>
+                            <li class="pucePicto">Analyse d’efficacité / difficulté de chaque partie</li>
+                        </ul>
+
+                        <b>Phase 3 : Entraînement</b><br>
+                        <p>Chaque cours est dédié à une section du TOEIC et fait l’objet d’une importante batterie de questions.<br>
+                        Les professeurs exposent progressivement le candidat à la contrainte temps, cruciale pour ce type de test. <br>
+                            Des tests blancs sont prévus afin de mettre le candidat dans un réel contexte de test.</p>
+
+                        <b>Développement de vocabulaire par thème</b><br>
+                        <ul class="list1">
+                            <li class="pucePicto"><b>Le développement de l’entreprise:</b> recherche, développement de produits</li>
+                            <li class="pucePicto"><b>Les repas à l’extérieur:</b> déjeuners professionnels et informels, banquets, réceptions, réservations de restaurant</li>
+                            <li class="pucePicto"><b>Les loisirs:</b> cinéma, théâtre, musique, art, expositions, musées, média</li>
+                            <li class="pucePicto"><b>La finance et l’élaboration de budget:</b> banque, investissements, fiscalité, comptabilité, facturations</li>
+                            <li class="pucePicto"><b>Les activités générales de l’entreprise:</b> contrats, négociations, fusions, marketing, ventes, garanties, planification d’activités, conférences, relations professionnelles</li>
+                            <li class="pucePicto"><b>La santé:</b> assurance médicale, visite chez le médecin, le dentiste, à la clinique, à l’hôpital</li>
+                            <li class="pucePicto"><b>Le logement/les biens immobiliers:</b> construction, cahier des charges, achat et location, services d’électricité et de gaz</li>
+                            <li class="pucePicto"><b>La production:</b> chaîne d’assemblage, gestion des usines, contrôle qualité</li>
+                            <li class="pucePicto"><b>Au bureau:</b> réunions de conseil d’administration, comités, lettres, notes de service et messages téléphoniques, par fax et électroniques, fournitures et matériel de bureau, procédures internes</li>
+                            <li class="pucePicto"><b>Les voyages:</b> trains, avions, taxis, bus, bateaux, ferries, billets, horaires, annonces dans les aéroports et les gares, locations de véhicule, hôtels, réservations, retards et annulations</li>
+                            <li class="pucePicto"><b>Les domaines techniques:</b> électronique, technologie, informatique, laboratoires et matériel connexe, spécifications techniques</li>
+                            <li class="pucePicto"><b>Le personnel:</b> recrutement, embauche, retraite, salaires, promotions, candidatures à un poste, annonces d’offres d’emploi, pensions de retraite, primes</li>
+                            <li class="pucePicto"><b>Les achats:</b> courses, commandes de fournitures, expéditions, factures</li>
+                            <li class="pucePicto">Examen de vos connaissances actuelles, de vos points forts et des axes d’amélioration</li>
+                            <li class="pucePicto">Mise en place d’un programme de préparation individualisé adapté à vos objectifs en termes de score</li>
+                        </ul>
+
+                        <span id="3" class="titre-bleu">3.	Objectifs pédagogiques  :</span>
+                        à l’issue de la formation le stagiaire sera capable de :
+                        <ul class="list1">
+                            <li class="pucePicto">Connaître la grammaire et maîtriser le vocabulaire</li>
+                            <li class="pucePicto">Interpréter et comprendre le contenu essentiel de sujets concrets ou abstraits dans un texte ou une conversation</li>
+                            <li class="pucePicto">Comprendre une grande gamme de textes longs.</li>
+                            <li class="pucePicto">Connaître les 7 parties du test du TOEIC Reading & Listening</li>
+                            <li class="pucePicto">Gestion du temps en test TOEIC pour le Reading</li>
+                        </ul>
+
+                        <span class="titre-bleu">4.	Méthodes et moyens pédagogiques :</span>
+                        <ul class="list1">
+                            <li class="pucePicto">Ouvrages spécialisés TOEIC</li>
+                            <li class="pucePicto">Mise en œuvre de méthodologie TOEIC</li>
+                            <li class="pucePicto">Validation des acquis avec le « homework »</li>
+                            <li class="pucePicto">Utilisation d’exercices de compréhension orale</li>
+                            <li class="pucePicto">Entraînement avec un formateur ou une formatrice expérimentée à la préparation TOEIC</li>
+                            <li class="pucePicto">Travail d’enrichissement du vocabulaire fondamental de la langue anglaise (quizlet)</li>
+                            <li class="pucePicto">Un résumé de la leçon incluant le nouveau vocabulaire, la grammaire</li>
+                            <li class="pucePicto">Des tests d’entraînement</li>
+                            <li class="pucePicto">Une correction détaillée</li>
+                        </ul>
+
+                        <span class="titre-bleu">5.	Public et prérequis et outils d’admission :</span>
+                        <ul class="list1">
+                            <li class="pucePicto"><b>Le public concerné :</b> formation « tous publics »</li>
+                            <li class="pucePicto"><b>Prérequis :</b> Niveau A2</li>
+                            <li class="pucePicto"><b>Outils d’admission :</b> Questionnaire analyse des besoins en ligne + test de positionnement et évaluation pré-formation. <a href="https://www.etsglobal.org/fr/fr/practice-test/toeic-level-projector" target="_blank">www.etsglobal.org</a> </li>
+                        </ul>
+
+                        <span class="titre-bleu">6.	Durée et modalités d’accueil, organisation et Tarif :</span>
+                        <ul class="list1">
+                            <li class="pucePicto"><b>X heures </b>de formation</li>
+                            <li class="pucePicto">Nos stages ont lieu en présentiel ou à distance. Ils se déroulent de 9h à 20h du lundi au vendredi et peuvent débuter à tout moment dans l'année.</li>
+                            <li class="pucePicto">Pour les formations en distanciel, un ordinateur, tablette avec microphone et caméra (non obligatoire), un logiciel visioconférence (Zoom, Skype, Teams) sont nécessaires.</li>
+                            <li class="pucePicto"><b>Tarif :</b> veuillez nous contacter.</li>
+                        </ul>
+
+                        <span class="titre-bleu">7.	Modalités de Suivi et d’évaluation :</span>
+                        <ul class="list1">
+                            <li class="pucePicto">Questions orales ou écrites lors des cours</li>
+                            <li class="pucePicto">Fiches d’évaluation</li>
+                            <li class="pucePicto">Mise en situation examen et tests TOEIC blanc sont mis à disposition</li>
+                            <li class="pucePicto">Questionnaire de satisfaction</li>
+                            <li class="pucePicto">Bilan score en fin de formation</li>
+                            <li class="pucePicto">Attestation de formation TOEIC Listening & Reading</li>
+                            <li class="pucePicto">Evaluation formative tout au long de la formation</li>
+                            <li class="pucePicto">Evaluation sommative via le TEST TOEIC</li>
+                        </ul>
+
+                        <span class="titre-bleu">8.	Délai d’accès :</span>
+                        <ul class="list1">
+                            <li class="pucePicto">1 mois maximum entre la demande du bénéficiaire et le début de la prestation</li>
+                        </ul>
+
+                        <span class="titre-bleu">9.	Accessibilité :</span>
+                        <ul class="list1">
+                            <li class="pucePicto">Les formations seront donc dispensées soit en entreprise soit dans nos locaux</li>
+                            <li class="pucePicto">Merci de contacter notre référent handicap pour l’adaptation des moyens de la prestation pour les personnes en situation de handicap</li>
+                            <li class="pucePicto">Nous pouvons aussi organiser les formations à distance</li>
+                        </ul>
+
+                        <span class="titre-bleu">10. Contacts :</span>
+                        <p>Pour toute question, veuillez nous adresser un email à <a href="mailto:contact@speakerscornerlanguage.fr">contact@speakerscornerlanguage.fr</a>  ou nous téléphoner au <a href="tel:+33675577277">06 75 57 72 77</a>(Référent handicap).</p>
+
+                        <br><br>
 					</div>
 					<div id="table3" style="margin-left: 540px;">
 						   <div class="row3">
