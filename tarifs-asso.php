@@ -56,28 +56,23 @@
 						      <span class="cell2">COURS INDIVIDUELS</span>
 						   </div>
 						   <div class="row">
-						      <span class="cell2">ENFANTS DES 3 ANS</span>
-						      <span class="cell">12€</span>
-						      <span class="cell">37€</span>
+						      <span class="cell2">ENFANTS / SCOLAIRES</span>
+						      <span class="cell">13 €</span>
+						      <span class="cell">45 €</span>
 						   </div>
 						   <div class="row">
-						      <span class="cell2">SCOLAIRES/ ADULTES</span>
-						      <span class="cell">12€</span>
-						      <span class="cell">37€</span>
-						   </div>
-						    <div class="row">
-						      <span class="cell2">TEA TIME</span>
-						      <span class="cell">13€</span>
-						      <span class="cell">-</span>
+						      <span class="cell2">ADULTES</span>
+						      <span class="cell">13 €</span>
+						      <span class="cell">45 €</span>
 						   </div>
 						    <div class="row">
 						      <span class="cell2">PROFESSIONNELS</span>
-						      <span class="cell">15€</span>
-						      <span class="cell">50€</span>
+						      <span class="cell">16 €</span>
+						      <span class="cell">55 €</span>
 						   </div>
 						    <div class="row">
-						      <span class="cell2">COURS BINÔME</span>
-						      <span class="cell">23€ / étudiant</span>
+						      <span class="cell2">BINÔME</span>
+						      <span class="cell">60 €</span>
 						      <span class="cell">-</span>
 						   </div>
 						</div>
