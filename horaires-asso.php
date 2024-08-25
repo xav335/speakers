@@ -67,14 +67,14 @@
 						   <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">CM2 / 6ème</span>
+						      <span class="cell4">CE2 / CM1 / CM2</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
                             <div class="row4">
                                 <span class="cell42"></span>
                                 <span class="cell4">18h45/19h45</span>
-                                <span class="cell4">ADULT CONVERSATION</span>
-                                <span class="cell4">LATRESNE</span>
+                                <span class="cell4">ADULT CONVERSATION (INTER /AVANCE)</span>
+                                <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
                             </div>
 						  
 						   <div class="row4">
@@ -86,30 +86,54 @@
 						   
 						   <div class="row4">
 						      <span class="cell42">MARDI</span>
-						      <span class="cell4">16h20/17h25</span>
-						      <span class="cell4">MATERNELLES MS-GS</span>
-						      <span class="cell4">Salle Augustinot Salle 5 LATRESNE</span>
+						      <span class="cell4">14h/15h30</span>
+						      <span class="cell4">ADULT CONVERSATION + APPROFONDISSEMENT <br>(PRE INTERMEDIAIRE)  </span>
+						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
-						    <div class="row4">
+                            <div class="row4">
+                                <span class="cell42"></span>
+                                <span class="cell4">16h20/17h25</span>
+                                <span class="cell4">MATERNELLES PS-MS</span>
+                                <span class="cell4">Salle Augustinot Salle 5 LATRESNE</span>
+                            </div>
+                            <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h45/18h45</span>
 						      <span class="cell4">TEEN POWER ATELIER 4ème/3ème</span>
 						      <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
+                            <div class="row4">
+                                <span class="cell42"></span>
+                                <span class="cell4">19h/20h</span>
+                                <span class="cell4">ADULT CONVERSATION + MISE A NIVEAU <br>(PRE INTERMEDIAIRE)  </span>
+                                <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+                            </div>
 
-						   <div class="row4">
+                            <div class="row4">
 						      <span class="cell4"></span>
 						      <span class="cell4"></span>
 						      <span class="cell4"></span>
 						      <span class="cell4"></span>
 						   </div>
-						   
-						   <div class="row4">
-						      <span class="cell42">MERCREDI</span>
+
+                            <div class="row4">
+                                <span class="cell42">MERCREDI</span>
+                                <span class="cell4">10h/11h</span>
+                                <span class="cell4">MATERNELLES</span>
+                                <span class="cell4">CENAC</span>
+                            </div>
+                            <div class="row4">
+						      <span class="cell42"></span>
 						      <span class="cell4">11h/11h45</span>
-						      <span class="cell4">GS - CP - CE1</span>
-						      <span class="cell4">24 ALLEE BERNADOTTE CENAC</span>
+						      <span class="cell4">CP - CE1 - CE2</span>
+						      <span class="cell4">CENAC</span>
 						   </div>
+                            <div class="row4">
+                                <span class="cell42"></span>
+                                <span class="cell4">18h/19h</span>
+                                <span class="cell4">ADULT CONVERSATION + MISE A NIVEAU <br>(FAUX DEBUTANT)  </span>
+                                <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+                            </div>
 
 						   <div class="row4">
 						      <span class="cell4"></span>
@@ -121,14 +145,14 @@
 						    <div class="row4">
 						      <span class="cell42">JEUDI</span>
 						      <span class="cell4">16h20/17h20</span>
-						      <span class="cell4">CM1 / CM2</span>
+						      <span class="cell4">MATERNELLES MS-GS</span>
 						      <span class="cell4">Salle Augustinot LATRESNE</span>
 						   </div>
 						    <div class="row4">
 						      <span class="cell42"></span>
 						      <span class="cell4">17h30/18h30</span>
-						      <span class="cell4">COLLEGE 5ème / 4ème</span>
-						       <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
+						      <span class="cell4">COLLEGE 6ème / 5ème</span>
+                              <span class="cell4">Maison des associations Salle 5 LATRESNE</span>
 						   </div>
 						   <div class="row4">
 						      <span class="cell4"></span>
