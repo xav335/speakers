@@ -62,7 +62,11 @@
                         <b>Rendez-vous dans notre onglet <a href="cpf-catalogue.php">«  catalogue formation »</a>  pour accéder directement à sa description sur le site moncompteformation.fr</b>
                             <br>Durée 10h – 15h – 30h – 40h
                         </p>
-						<span class="titre-bleu-gros">Programme de la formation - Préparation TOEIC</span>
+                        <br>
+                        <div style="text-align: center;">
+                            <a href="https://www.etsglobal.org/fr/fr/profile/actifs-demandeurs-demploi" target="_blank"><img  alt="toeic" src="images/ets-global.png" /></a></div>
+                        <br>
+                        <span class="titre-bleu-gros">Programme de la formation - Préparation TOEIC</span>
 
                         <span id="1" class="titre-bleu">1.	Le cursus de formation :</span>
                         <p>Dans un contexte d’internationalisation croissante, les entreprises requièrent de leurs collaborateurs qu’ils maîtrisent la langue anglaise,
@@ -81,6 +85,9 @@
                             <li class="pucePicto">Pratique du QCM (méthodes et astuces)</li>
                             <li class="pucePicto">Acquisition de techniques permettant au candidat de gérer son temps.</li>
                         </ul>
+
+
+
 
                        <b>Appréhender le test du TOEIC L&R</b><br>
                         <ul class="list1">
