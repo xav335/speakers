@@ -408,26 +408,18 @@ img { max-width: 100%; height: auto; }
 }
 
 .scl-landing-logo {
-  max-width: 450px;
-  width: 80%;
+  max-width: 330px;
+  width: 65%;
   margin-bottom: 30px;
 }
 
 
-/* Animation avion */
-.scl-plane-anim {
-  width: 100%;
-  max-width: 500px;
-  height: 70px;
-  margin: -10px 0 10px;
-  overflow: visible;
-}
 
 .scl-landing h1 {
   color: #fff;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: clamp(20px, 4vw, 34px);
+  font-size: clamp(16px, 3vw, 26px);
   border-bottom: 1px solid #fff;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -482,7 +474,7 @@ img { max-width: 100%; height: auto; }
   gap: 20px;
   margin-bottom: 20px;
 }
-.scl-landing-badges img { max-height: 140px; width: auto; }
+.scl-landing-badges img { max-height: 170px; width: auto; }
 
 .scl-btn-qualio {
   background: #2b669a;

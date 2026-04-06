@@ -36,22 +36,6 @@ $result = $news->newsGet(null);
 
   <img src="images/logo-home.png" alt="Speakers'Corner" class="scl-landing-logo">
 
-  <!-- Animation avion sur pointillés -->
-  <svg class="scl-plane-anim" viewBox="0 0 500 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <path id="planePath"
-          d="M -30,50 Q 80,5 180,40 Q 280,75 380,25 Q 450,5 530,35"
-          fill="none"
-          stroke="rgba(255,255,255,0.35)"
-          stroke-width="2"
-          stroke-dasharray="7,10"/>
-    <text font-size="22" fill="white">
-      ✈
-      <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#planePath"/>
-      </animateMotion>
-    </text>
-  </svg>
-
   <h1>Cours d'anglais Latresne</h1>
   <h2>Bordeaux &amp; Gironde</h2>
 
@@ -61,8 +45,10 @@ $result = $news->newsGet(null);
   </div>
 
   <div class="scl-landing-badges">
-    <a href="images/certif-qualopi.pdf" target="_blank" class="scl-btn-qualio">Qualiopi</a>
-    <img src="images/TOEIC2.png" alt="TOEIC" style="max-height:90px;">
+    <a href="images/certif-qualopi.pdf" target="_blank" style="background:#fff; padding:8px 12px; border-radius:6px; display:inline-block;">
+      <img src="images/Qualiopi1.png" alt="Certification Qualiopi" style="width:150px; height:auto;">
+    </a>
+    <img src="images/TOEIC2.png" alt="TOEIC">
   </div>
 
   <?php if (!empty($result)) { ?>
