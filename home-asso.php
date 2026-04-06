@@ -3,23 +3,14 @@
 	$classMenuBackgroung[0]='menuTexteFondOn';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='menuTexteOn';$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-	<? 
-				
-	include_once("./include-meta.php"); 
-	
-	?> 
-<title>Speakers Corner Language</title>
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers Corner Language</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">
@@ -52,9 +43,9 @@
 					L’accent est mis sur la communication dès la 1ère séance :<br><br>
 					<b>Expression orale :</b> s’exprimer sur des sujets concrets, utiles et stimulants car seule la pratique de l'oral rend possible le développement de <b>réflexes et d'automatismes</b> linguistiques.<br><br>
 					<b>Compréhension orale :</b> privilégier l’écoute et la compréhension de l’oral avec des supports modernes et authentiques.<br><br>
-					<br><br><br><br><br><br>
+					
 					<span class="titre-bleu" style="text-align: center;">L’UNIVERS SPEAKERS’CORNER :</span>
-					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metroasso.png" /><br><br><br><br><br></div>
+					<div style="float: left; margin-right: 2px; margin-left: 16px;"><img style="" alt="metro" src="images/metroasso.png" /></div>
 					<br>
 					<ul class="list1">
 					   <li class="pucePicto4">Des modules en mini groupes avec une intéraction stimulante.</li>
@@ -80,60 +71,62 @@
 							<span style="display:block; text-align: center;"><a href="https://www.linkedin.com/in/adele-planteur-960851197/" target="_blank"><img  alt="photo-groupe" src="images/linkedin.png"/></a></span>
 					</div>
 					<div class="content-center-right-bottom">
-						<div style="padding-top: 16px; padding-bottom: 26px;"><span class="titre-blanc-gros">Anglais Pour Tous !</span></div>
-						<div style="width: 429px; border-bottom : 4px ridge white; overflow:hidden; ">
-							<div style="width: 215px; text-align:center;border-right : 4px ridge white;padding:4px 4px 4px 4px;  float: left; ">
+						<div style="padding-top:16px; padding-bottom:16px; text-align:center;">
+							<span class="titre-blanc-gros">Anglais Pour Tous !</span>
+						</div>
+						<div style="display:flex; flex-wrap:wrap; border-bottom:4px ridge white;">
+							<div style="flex:1 1 45%; text-align:center; border-right:4px ridge white; padding:8px;">
 								<span class="texte"><a href="formules-asso.php#kids">KIDS (5-11 ans)</a></span>
-								 <span style="text-align: left;" class="texte-gris">
+								<span style="text-align:left; display:block;" class="texte-gris">
 									<ul class="list1">
 									   <li class="pucePicto">Eveil</li>
 									   <li class="pucePicto">Initiation</li>
 									   <li class="pucePicto">Conversation</li>
 									</ul>
-								 </span>
+								</span>
 							</div>
-							<div style="margin-left: 227px;  text-align:center;padding:4px 4px 4px 4px; " >
+							<div style="flex:1 1 45%; text-align:center; padding:8px;">
 								<span class="texte"><a href="formules-asso.php#teens">TEENS (12-18 ans)</a></span>
-								<span style="text-align: left;"  class="texte-gris">
+								<span style="text-align:left; display:block;" class="texte-gris">
 									<ul class="list1">
 									   <li class="pucePicto">Conversation</li>
-									   <li class="pucePicto">révision exams</li>
+									   <li class="pucePicto">Révision exams</li>
 									   <li class="pucePicto">Stages intensifs</li>
 									</ul>
-								 </span>
+								</span>
 							</div>
 						</div>
-						<div style=" overflow:hidden; border: 0px solid red; padding-bottom: 20px;">
-							<div style="width: 215px;text-align:center; border-right : 4px ridge white; padding:14px 4px 4px 4px;  float: left;">
-								<span class="texte"><a href="formules-asso.php#students">STUDENTS  (+18 ans)</a></span>
-								<span style="text-align: left;"  class="texte-gris">
+						<div style="display:flex; flex-wrap:wrap; padding-bottom:16px;">
+							<div style="flex:1 1 45%; text-align:center; border-right:4px ridge white; padding:14px 8px 8px;">
+								<span class="texte"><a href="formules-asso.php#students">STUDENTS (+18 ans)</a></span>
+								<span style="text-align:left; display:block;" class="texte-gris">
 									<ul class="list1">
 									   <li class="pucePicto">Exams, BTS, ...</li>
 									   <li class="pucePicto">Préparation TOEIC</li>
-									   <li class="pucePicto">Préparation coucours des grandes écoles</li>
+									   <li class="pucePicto">Préparation concours grandes écoles</li>
 									   <li class="pucePicto">Perfectionnement oral</li>
 									   <li class="pucePicto">Conversation</li>
 									</ul>
-								 </span>
+								</span>
 							</div>
-							<div style="margin-left: 227px; text-align:center;padding:14px 4px 4px 4px; border: 0px solid blue;" >
+							<div style="flex:1 1 45%; text-align:center; padding:14px 8px 8px;">
 								<span class="texte"><a href="formules-asso.php#adultes">ADULTS</a></span>
-								<span style="text-align: left;"  class="texte-gris">
+								<span style="text-align:left; display:block;" class="texte-gris">
 									<ul class="list1">
 									   <li class="pucePicto">Initiation</li>
 									   <li class="pucePicto">Conversation</li>
 									   <li class="pucePicto">Perfectionnement</li>
 									   <li class="pucePicto">Préparation voyages</li>
 									</ul>
-								 </span>
+								</span>
 							</div>
 						</div>
-						<div id="table3" style="margin-left: 30px;">
-						   <div class="row3">
-						      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
-						      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
-						   </div>
-						</div>	
+						<div style="text-align:center; padding-bottom:10px;">
+						   <a href="images/ficheinscription2024.pdf" target="_blank">
+						      <img alt="pdf" style="width:40px; vertical-align:middle; margin-right:8px;" src="images/pdficon-petit.png">
+						      Télécharger le formulaire d'inscription
+						   </a>
+						</div>
 					</div>
 					
 				</div>	  

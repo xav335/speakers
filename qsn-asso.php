@@ -3,23 +3,14 @@
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='menuTexteFondOn';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='menuTexteOn';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<? 
-				
-	include_once("./include-meta.php"); 
-	
-	?> 
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">
@@ -47,10 +38,11 @@
 			</div>
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-					<div style="float: left; margin-right: 22px;"><img  alt="adele planteur" src="images/adele2.jpg" /></div>
+					<div style="float: left; margin-right: 22px; margin-bottom: 10px;"><img  alt="adele planteur" src="images/adele2.jpg" /></div>
+					<div style="overflow: hidden;">
 					<span class="titre-bleu"><b>Adele PLANTEUR</b> : Teaching Manager and certified teacher</span><br>
 					<span style="font-weight: bold;">Responsable pédagogique.</span><br>
-					<div style="margin-left: 232px; border: 0px solid white;" >
+					<div>
 						<ul class="list1">
 						   <li class="pucePicto">2011 : Diplômée du CELTA avec mention, le certificat international d’enseignement de l’anglais délivré par l’université de Cambridge. (ESOL)</li>
 						   <li class="pucePicto">2003 : Maîtrise LLCE d’anglais à L’université Bordeaux III.</li>
@@ -59,7 +51,8 @@
 					<br>
 					Elle supervise l’ensemble des cours d’anglais de la structure et possède une certification d’enseignement international.<br><br>
                     Son expérience dans l’enseignement au Royaume Uni et en France lui permet d’offrir assistance et expertise à nos élève et d’épauler les professeurs dans le contenu des cours et la pédagogie propre à Speakers’ Corner.
-				</div>
+					</div><!-- fin overflow:hidden -->
+				</div><!-- fin content-center-only -->
 			</div>
 			
 			<div class="content-center-top">

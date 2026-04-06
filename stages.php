@@ -3,20 +3,14 @@
 	$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='menuTexteFondOn';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='menuTexteOn';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Speakers Corner Language - Contact</title>
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers Corner Language - Contact</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">

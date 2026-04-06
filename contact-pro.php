@@ -65,23 +65,14 @@ require 'admin/classes/Contact.php';
 	
 	$menu_contact = "active";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<? 
-				
-	include_once("./include-meta.php"); 
-	
-	?> 
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">
@@ -104,7 +95,7 @@ require 'admin/classes/Contact.php';
 		<div class="content-center">
 			<div class="content-center-top">
 				<div class="content-center-left">
-					<div style="float: left; padding: 0px 15px 10px 0px; text-align:center; margin-left: 45px;" >
+					<div style="text-align:center;" >
 						<span class="titre-bleu">Contactez nous !</span>
 					
 						<img style="padding-bottom: 20px; " alt="photo-groupe" src="images/hands.jpg" /><br>
@@ -131,7 +122,7 @@ require 'admin/classes/Contact.php';
 						
 						<div style=" overflow:hidden; border: 0px solid red;">
 							<div class="formulaire">
-								<form id="contacte" name="contacte" method="post" action="contact-asso.php">
+								<form id="contacte" name="contacte" method="post" action="contact-pro.php">
 									<input type="hidden" value="envoyer" id="mon_action" name="mon_action">
 									<input type="hidden" value="" id="as" name="as">
 									

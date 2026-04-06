@@ -1,21 +1,47 @@
-<div id='cssmenu'>
-	<ul>
-	   <li id="<?php echo $classMenuBackgroung[0] ?>" class='active' ><a href='home-asso.php'><span class="<?php echo $classMenuColor[0] ?>" >Home</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[1] ?>" class='active' ><a href='qsn-asso.php'><span class="<?php echo $classMenuColor[1] ?>" >Qui sommes Nous</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[2] ?>" class='has-sub'><a href='formules-asso.php'><span class="<?php echo $classMenuColor[2] ?>" >Formules</span></a>
-	      <ul>
-	         <li><a href='formules-asso.php#kids'><span>Anglais général</span></a></li>
-	         <li><a href='formules-asso.php#binomes'><span>Particuliers / Binômes</span></a></li>
-	         <li class='last'><a href='formules-asso.php#pap'><span>"Pret à partir"</span></a></li>
-	         <li><a href='formules-asso.php#skype'><span>Atelier Skype</span></a></li>
-	         <li><a href='formules-asso.php#stages'><span>Stages</span></a></li>
-	         
-	      </ul>
-	   </li><li id="<?php echo $classMenuBackgroung[3] ?>"><a href='tarifs-asso.php'><span class="<?php echo $classMenuColor[3] ?>" >Tarifs</span></a>  
-	   </li><li id="<?php echo $classMenuBackgroung[4] ?>"><a href='horaires-asso.php'><span class="<?php echo $classMenuColor[4] ?>" >Horaires</span></a> 
-	   </li><li id="<?php echo $classMenuBackgroung[5] ?>" class='has-sub'><a href='news.php?type=asso'><span class="<?php echo $classMenuColor[5] ?>" >News</span></a> 
-	   </li><li id="<?php echo $classMenuBackgroung[6] ?>"><a href='livredor.php?type=asso'><span class="<?php echo $classMenuColor[6] ?>" >Livre D'or</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[7] ?>"><a href='contact-asso.php'><span class="<?php echo $classMenuColor[7] ?>">Contact</span></a>
-	   </li><li class='last' id="menuTexteFondPro"><a href='home-pro.php'><span class="menuTextePro">Professionnels</span></a></li>
-	</ul>
-</div>
+<nav class="navbar navbar-expand-lg scl-navbar">
+  <div class="container-fluid scl-navbar-inner">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navAsso" aria-controls="navAsso" aria-expanded="false" aria-label="Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navAsso">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[0]) ? ' active' : '' ?>" href="home-asso.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[1]) ? ' active' : '' ?>" href="qsn-asso.php">Qui sommes-nous</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle<?= !empty($classMenuBackgroung[2]) ? ' active' : '' ?>" href="formules-asso.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Formules
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="formules-asso.php#kids">Anglais général</a></li>
+            <li><a class="dropdown-item" href="formules-asso.php#binomes">Particuliers / Binômes</a></li>
+            <li><a class="dropdown-item" href="formules-asso.php#pap">"Prêt à partir"</a></li>
+            <li><a class="dropdown-item" href="formules-asso.php#skype">Atelier Skype</a></li>
+            <li><a class="dropdown-item" href="formules-asso.php#stages">Stages</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[3]) ? ' active' : '' ?>" href="tarifs-asso.php">Tarifs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[4]) ? ' active' : '' ?>" href="horaires-asso.php">Horaires</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[5]) ? ' active' : '' ?>" href="news.php?type=asso">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[6]) ? ' active' : '' ?>" href="livredor.php?type=asso">Livre d'or</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[7]) ? ' active' : '' ?>" href="contact-asso.php">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scl-nav-pro" href="home-pro.php">Professionnels</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,530 @@
+/* =============================================================
+   SPEAKERS'CORNER LANGUAGE — CSS Responsive (Bootstrap 5 layer)
+   ============================================================= */
+
+/* --- Variables couleurs --- */
+:root {
+  --scl-blue:    #182451;
+  --scl-red:     #be202f;
+  --scl-dark:    #282828;
+  --scl-gray:    #9d9d9c;
+  --scl-lgray:   #b1b1b0;
+  --scl-dgray:   #858584;
+  --scl-ddgray:  #60605f;
+}
+
+/* --- Tailles de texte agrandies --- */
+body                { font-size: 16px !important; }
+.texte              { font-size: 16px !important; }
+.texte-gris         { font-size: 16px !important; }
+.texte-gris2        { font-size: 16px !important; }
+.pucePicto,
+.pucePicto2,
+.pucePicto3,
+.pucePicto4         { font-size: 16px !important; }
+.titre-bleu         { font-size: 18px !important; }
+.titre-bleu-gros    { font-size: 22px !important; }
+.titre-blanc        { font-size: 18px !important; }
+.titre-blanc-gros   { font-size: 22px !important; }
+.titre-noir-gros    { font-size: 22px !important; }
+.titre1             { font-size: 26px !important; }
+.titre2             { font-size: 32px !important; }
+.formulaire input,
+.formulaire textarea { font-size: 16px !important; }
+.scl-footer .texte  { font-size: 15px !important; }
+
+/* --- Images fluides par défaut --- */
+img { max-width: 100%; height: auto; }
+
+/* ===========================
+   NAVBAR
+   =========================== */
+.scl-navbar {
+  background-color: var(--scl-ddgray); /* #60605f — gris foncé original */
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+/* Mobile : fixed pour garantir que le hamburger suit le scroll */
+@media (max-width: 991px) {
+  .scl-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  /* Compenser la hauteur de la navbar fixe */
+  .header {
+    margin-top: 56px;
+  }
+}
+.scl-navbar-pro { background-color: var(--scl-ddgray); }
+
+.scl-navbar-inner { max-width: 1200px; margin: 0 auto; padding: 0; }
+
+.scl-navbar .nav-link {
+  color: #fff !important;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 12px 13px !important;
+  line-height: 1.2;
+}
+
+.scl-navbar .nav-link:hover,
+.scl-navbar .nav-link.active {
+  background-color: var(--scl-gray) !important; /* #9d9d9c — gris clair hover */
+  color: var(--scl-ddgray) !important;           /* #60605f — texte sombre */
+}
+
+.scl-navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.5);
+  margin: 6px 10px;
+}
+.scl-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.scl-navbar .dropdown-menu {
+  background-color: var(--scl-ddgray);
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  min-width: 220px;
+}
+
+.scl-navbar .dropdown-item {
+  color: #fff;
+  font-size: 14px;
+  padding: 9px 15px;
+  text-transform: uppercase;
+}
+.scl-navbar .dropdown-item:hover {
+  background-color: var(--scl-gray);
+  color: var(--scl-ddgray);
+}
+
+/* Bouton switcher Professionnels (asso → pro) */
+.scl-nav-pro {
+  background-color: var(--scl-blue) !important; /* bleu original */
+  color: #fff !important;
+  padding: 12px 13px !important;
+}
+.scl-nav-pro:hover {
+  background-color: var(--scl-gray) !important;
+  color: var(--scl-ddgray) !important;
+}
+
+/* Bouton switcher Particuliers (pro → asso) */
+.scl-nav-asso {
+  background-color: var(--scl-red) !important;
+  color: #fff !important;
+  padding: 12px 13px !important;
+}
+.scl-nav-asso:hover {
+  background-color: var(--scl-gray) !important;
+  color: var(--scl-ddgray) !important;
+}
+
+/* ===========================
+   HEADER
+   =========================== */
+.header {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  height: auto !important;
+  min-height: 210px;
+  text-align: center;
+  display: block !important;
+  padding-bottom: 12px;
+}
+.header #logo {
+  padding-top: 17px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===========================
+   CONTENEUR PRINCIPAL
+   =========================== */
+.main { max-width: 100%; }
+
+.content-top { height: auto !important; }
+.content-top-base,
+.content-center,
+.content-center-bas,
+.footer-center {
+  width: 100% !important;
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ===========================
+   COLONNES CONTENU
+   =========================== */
+/* Tableaux — centrés */
+#table3, #table4 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+  max-width: 100%;
+  text-align: center;
+}
+/* Lien PDF dans table3 — centré */
+#table3 .cell3 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 6px 8px;
+}
+#table3 .row3 {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Titre dans le header — meilleure lisibilité */
+#titre-site {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 4px 14px;
+  border-radius: 3px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  display: inline-block;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+.header {
+  overflow: visible !important;
+}
+
+/* Colonne unique — pleine largeur du conteneur */
+.content-center-only {
+  width: 100% !important;
+  float: none !important;
+  box-sizing: border-box;
+}
+
+/* Desktop : colonnes égales en % */
+.content-center-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+/* Layout livre d'or / news : formulaire + messages côte à côte */
+.content-center-right-news {
+  float: none !important;
+  width: calc(35% - 5px) !important;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.content-center-left-news {
+  margin-left: 0 !important;
+  width: calc(65% - 5px) !important;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.content-center-left {
+  width: calc(50% - 5px) !important;
+  float: none !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.content-center-right {
+  margin-left: 0 !important;
+  width: calc(50% - 5px) !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.content-center-left-pro {
+  width: calc(60% - 5px) !important;
+  float: none !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.content-center-right-pro {
+  margin-left: 0 !important;
+  width: calc(40% - 5px) !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* Tablet (< 1050px) : déjà géré par flexbox ci-dessus */
+
+/* Mobile (< 768px) : tout en colonne unique */
+@media (max-width: 767px) {
+  .content-center-left,
+  .content-center-left-pro,
+  .content-center-right,
+  .content-center-right-pro,
+  .content-center-right-news,
+  .content-center-left-news {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0 !important;
+    flex: none !important;
+    box-sizing: border-box;
+  }
+
+  .content-center-only {
+    width: 100% !important;
+    float: none !important;
+    box-sizing: border-box;
+  }
+
+  /* Masquer le soldat décoratif sur mobile */
+  #soldat { display: none; }
+
+  /* Annuler les flottants des images dans le contenu sur mobile */
+  .content-center-only [style*="float:left"],
+  .content-center-only [style*="float: left"],
+  .content-center-only [style*="float:right"],
+  .content-center-only [style*="float: right"] {
+    float: none !important;
+    display: block;
+    margin: 0 auto 15px auto !important;
+    text-align: center;
+    max-width: 100%;
+  }
+  /* Harmoniser la largeur de toutes les photos de profil sur mobile */
+  .content-center-only [style*="float:left"] img,
+  .content-center-only [style*="float: left"] img,
+  .content-center-only [style*="float:right"] img,
+  .content-center-only [style*="float: right"] img {
+    width: 80% !important;
+    max-width: 280px;
+    height: auto;
+  }
+  .content-center-only [style*="overflow:hidden"],
+  .content-center-only [style*="overflow: hidden"] {
+    overflow: visible !important;
+    width: 100%;
+  }
+
+  /* Sous-grilles inline dans home-asso (KIDS/TEENS/etc.) */
+  [style*="width: 215px"], [style*="width:215px"] {
+    width: 100% !important;
+    float: none !important;
+    border-right: none !important;
+  }
+  [style*="margin-left: 227px"], [style*="margin-left:227px"] {
+    margin-left: 0 !important;
+  }
+  [style*="width: 429px"], [style*="width:429px"] {
+    width: 100% !important;
+  }
+
+  /* Tables de tarifs */
+  #table  { width: 100% !important; margin-left: 0 !important; }
+  #table4 { width: 100% !important; margin-left: 0 !important; }
+  #table5 { width: 100% !important; margin-left: 0 !important; }
+  .cell4, .cell42 { display: block !important; width: 100% !important; }
+
+  /* Table3 (PDF + liens) */
+  #table3 { margin-left: 0 !important; }
+
+  /* Cartouche bas de page */
+  .content-center-bas { height: auto !important; margin-bottom: 20px; }
+  .content-center-bas-droite {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: fit-content !important;
+    max-width: 280px !important;
+  }
+  .cabine-tel { display: none; }
+  .info-adele { padding: 15px !important; }
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+/* Supprimer l'image de fond et la hauteur fixe de l'ancien footer */
+.footer {
+  background-image: none !important;
+  height: auto !important;
+  padding: 0 !important;
+}
+/* Supprimer aussi le fond du bandeau menu */
+.content-top {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.scl-footer {
+  background-color: var(--scl-blue);
+  color: #fff;
+  padding: 12px 0;
+  margin-top: 10px;
+}
+.scl-footer-pro { background-color: var(--scl-dark); }
+
+.scl-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* Rétablir le comportement Bootstrap pour .row dans le footer et partout */
+.scl-footer-inner .row,
+.container .row,
+.container-fluid .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+.scl-footer-inner .col-md-4 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.scl-footer-block {
+  border-left: 2px solid rgba(255,255,255,0.3);
+  padding-left: 12px;
+}
+.scl-footer a { color: rgba(255,255,255,0.85); text-decoration: none; }
+.scl-footer a:hover { color: #f0c040; text-decoration: underline; }
+.scl-footer .texte { color: rgba(255,255,255,0.85); font-size: 13px; }
+
+/* ===========================
+   LANDING PAGE (index.php)
+   =========================== */
+.scl-landing {
+  min-height: 100vh;
+  background: url('../img/bg-intro.jpg') no-repeat center center #0e112a;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.scl-landing-logo {
+  max-width: 450px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+
+/* Animation avion */
+.scl-plane-anim {
+  width: 100%;
+  max-width: 500px;
+  height: 70px;
+  margin: -10px 0 10px;
+  overflow: visible;
+}
+
+.scl-landing h1 {
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: clamp(20px, 4vw, 34px);
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.scl-landing h2 {
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: clamp(14px, 2.5vw, 18px);
+  margin-bottom: 30px;
+}
+
+.scl-landing-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.scl-btn-part {
+  background: var(--scl-red);
+  color: #fff !important;
+  font-size: clamp(16px, 3vw, 22px);
+  text-transform: uppercase;
+  padding: 8px 28px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 180px;
+  transition: background 0.2s, color 0.2s;
+}
+.scl-btn-part:hover { background: #fff; color: var(--scl-red) !important; }
+
+.scl-btn-pro {
+  background: #000;
+  color: #fff !important;
+  font-size: clamp(16px, 3vw, 22px);
+  text-transform: uppercase;
+  padding: 8px 28px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 180px;
+  transition: background 0.2s, color 0.2s;
+}
+.scl-btn-pro:hover { background: #fff; color: #000 !important; }
+
+.scl-landing-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.scl-landing-badges img { max-height: 140px; width: auto; }
+
+.scl-btn-qualio {
+  background: #2b669a;
+  color: #fff !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+.scl-btn-qualio:hover { background: #fff; color: #2b669a !important; }
+
+.scl-landing-news {
+  background: rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding: 15px 20px;
+  margin-top: 20px;
+  max-width: 640px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+}
+.scl-landing-news p span {
+  font-size: 11px;
+  display: block;
+  padding-top: 8px;
+}
+.scl-landing-news a { color: #fff; text-transform: uppercase; font-size: 11px; }
+
+/* ===========================
+   UTILITAIRES RESPONSIVE
+   =========================== */
+@media (max-width: 767px) {
+  .cell, .cell2, .cell22, .cell4, .cell42, .cell5 {
+    display: block !important;
+    width: 100% !important;
+  }
+  .row, .row3, .row4 { display: block !important; }
+  #table, #table3, #table4, #table5 {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+}

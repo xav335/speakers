@@ -3,23 +3,14 @@ $societe="pro";
 $classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='menuTexteFondOn';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 $classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    <?
-
-    include_once("./include-meta.php");
-
-    ?>
-    <!--[if lte IE 7]>
-    <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-    <link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
 </head>
 <body>
+
 
 <div class="main">
     <div class="header">
@@ -85,13 +76,13 @@ $classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$cl
                             </ul>
                         </div>
                     </div>
-                    <div id="table3" style="margin-left: 540px;">
+                    <div id="table3" style="text-align:center;">
                         <div class="row3">
                             <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
                             <span class="cell3"><a  href="images/ficheinscriptionpro2021.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
                         </div>
                     </div>
-                    <div id="table3" style="margin-left: 540px;">
+                    <div id="table3" style="text-align:center;">
                         <div class="row3">
                             <span class="cell3"></span>
                             <span class="cell3"><a  href="contact-pro.php">Pour tout renseignement contactez nous !</a></span>

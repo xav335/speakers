@@ -102,23 +102,14 @@
 	$goldbook = null;	
 	$goldbookpro = null;
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<? 
-				
-	include_once("./include-meta.php"); 
-	
-	?> 
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">
@@ -140,65 +131,63 @@
 		</div>
 		<div class="content-center">
 			<div class="content-center-top">
+				<!-- Colonne gauche : formulaire -->
 				<div class="content-center-right-news">
 					<div class="content-center-right-top">
-							<span style="display:block; text-align: center;"><img  alt="photo-groupe" src="images/fb-crown.png"/></span>
-							<span class="titre-blanc">Livre d'or</span>
+						<span style="display:block; text-align:center;"><img alt="photo-groupe" src="images/fb-crown.png"/></span>
+						<span class="titre-blanc">Livre d'or</span>
 					</div>
 					<div class="content-center-right-bottom">
 						<div><span class="titre-blanc-gros">Signez le livre d'or !</span></div>
-						<div style="width: 100%; border-bottom : 4px ridge white; padding-bottom: 20px;">
-							<div style=" overflow:hidden; border: 0px solid red;">
-								<div class="formulaire">
-									<form id="contacte" name="contacte" method="post" action="livredor.php?type=<?php echo $societe; ?>">
-										<input type="hidden" value="envoyer" id="mon_action" name="mon_action">
-										<input type="hidden" value="" id="as" name="as">
-										<input type="hidden" name="datepicker"  value="<?php echo date('d/m/Y')?>" >
-										<input type="hidden" name="online"  value="0" >
-										
-										<div style="text-align:center; border: 1px solid #FFF; padding: 13px; margin-bottom: 5px; display:<?=$affichage_envoi_ok?>">
-											<div class="description">
-												<?php if($affichage_envoi_ok == 'ok') {?>
-												<h3>Merci,</h3>
-												<p>Votre message nous a bien été envoyé.</p>
-												<p>Merci pour votre confiance</p>
-												<?php } else { ?>
-												<h3>Contrôle AntiSpam,</h3>
-												<p>Le mot à recopier n'est pas correct</p>
-												<p>Merci de recommencer</p>
-												<?php }?>
-											</div>
+						<div style="width:100%; border-bottom:4px ridge white; padding-bottom:20px;">
+							<div class="formulaire">
+								<form id="contacte" name="contacte" method="post" action="livredor.php?type=<?php echo $societe; ?>">
+									<input type="hidden" value="envoyer" id="mon_action" name="mon_action">
+									<input type="hidden" value="" id="as" name="as">
+									<input type="hidden" name="datepicker" value="<?php echo date('d/m/Y'); ?>">
+									<input type="hidden" name="online" value="0">
+									<?php if ($affichage_envoi_ok === 'ok' || $affichage_envoi_ok === 'captchaKO') { ?>
+									<div style="text-align:center; border:1px solid #FFF; padding:13px; margin-bottom:5px;">
+										<div class="description">
+											<?php if ($affichage_envoi_ok === 'ok') { ?>
+											<h3>Merci,</h3>
+											<p>Votre message nous a bien été envoyé.</p>
+											<p>Merci pour votre confiance</p>
+											<?php } else { ?>
+											<h3>Contrôle AntiSpam,</h3>
+											<p>Le mot à recopier n'est pas correct</p>
+											<p>Merci de recommencer</p>
+											<?php } ?>
 										</div>
-										<input type="text" id="nom" name="name"  placeholder="Votre nom" required value="<?php echo $_SESSION['nom'] ?>"><br>
-										<input type="email" id="email" name="email" placeholder="Votre email" required value="<?php echo $_SESSION['email'] ?>"><br>
-										<textarea id="msg" name="message" placeholder="Votre message" required><?php echo $_SESSION['message'] ?></textarea><br>
-										<label for="captcha">Antispam, recopiez le mot : <strong><?php echo captcha(); ?></strong></label>
-            							<input type="text" name="captcha" id="captcha" required /><br>
-										<input type="submit" class="submit" value="PUBLIER" style="color: #FFF;">
-									</form>
-								</div>
-							</div>	
-						</div>
-						<div style="text-align: center; height: 120px;"><img alt="adele planteur" src="images/bridge.png" /></div>
-					</div>
-						
-				</div>	 
-				<?php 
-					if (!empty($result)) { 
-						$i=0;
-						foreach ($result as $value) {
-							$i++;
-							?>
-						<div class="content-center-left-news" >
-							<div style=" border-bottom : 4px ridge white; padding:20px 20px 20px 20px; border: 1px solid white;">
-								<span class="texte-gris" >
-								  	<?php echo $value['message'] ?><br><br>
-									<b><?php echo $value['nom'] ?></b>
-								</span>
+									</div>
+									<?php } ?>
+									<input type="text" id="nom" name="name" placeholder="Votre nom" required value="<?php echo htmlspecialchars($_SESSION['nom']); ?>"><br>
+									<input type="email" id="email" name="email" placeholder="Votre email" required value="<?php echo htmlspecialchars($_SESSION['email']); ?>"><br>
+									<textarea id="msg" name="message" placeholder="Votre message" required><?php echo htmlspecialchars($_SESSION['message']); ?></textarea><br>
+									<label for="captcha">Antispam, recopiez le mot : <strong><?php echo captcha(); ?></strong></label>
+									<input type="text" name="captcha" id="captcha" required /><br>
+									<input type="submit" class="submit" value="PUBLIER" style="color:#FFF;">
+								</form>
 							</div>
-						</div> 
-						<?php } ?>
-				<?php } ?>
+						</div>
+						<div style="text-align:center;"><img alt="adele planteur" src="images/bridge.png" style="max-width:100%;"/></div>
+					</div>
+				</div>
+
+				<!-- Colonne droite : messages -->
+				<div class="content-center-left-news">
+					<?php if (!empty($result)) {
+						foreach ($result as $value) { ?>
+					<div style="border:1px solid white; padding:15px 20px; margin-bottom:10px;">
+						<span class="texte-gris">
+							<?php echo $value['message']; ?><br><br>
+							<b><?php echo $value['nom']; ?></b>
+						</span>
+					</div>
+					<?php } } else { ?>
+					<p class="texte" style="padding:20px;">Aucun message pour l'instant. Soyez le premier à signer !</p>
+					<?php } ?>
+				</div>
 			</div>
 			<img id="soldat" alt="soldat" src="images/soldat.png" />
 			

@@ -3,23 +3,14 @@
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='menuTexteFondOn';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<? 
-				
-	include_once("./include-meta.php"); 
-	
-	?> 
-<!--[if lte IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
-    <![endif]-->
-			
-	<script type="text/javascript" src="js/script.js"></script>	
-	<script type="text/javascript" language="javascript" src="js/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+  <?php include_once("./include-meta.php"); ?>
+  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
 </head>
 <body>
+
 
 <div class="main">
 	<div class="header">
@@ -70,7 +61,7 @@
 					Club dédié aux échanges et au travail par le jeu de rôle. Un objectif précis est donné 
 					en début de séance et les enfants se déplacent, échangent, questionnent en anglais uniquement.
 					Ils prennent conscience de la portée communicative concrète de la langue en alliant l’apprentissage, le jeu et le « fun ».<br><br> 
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
 					      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
@@ -93,12 +84,12 @@
 					Perfectionnement, enrichissement de la connaissance scolaire de l’anglais. (Re) mise en confiance et amélioration de l’accent et de la
 					 compréhension orale. Méthodologie et préparations aux examens. <br><br> 
 					
-					<div style="text-align: center; background-color: #858584; margin: 10px 200px 30px 200px; padding: 30px 30px 30px 20px;"">
+					<div style="text-align: center; background-color: #858584; margin: 10px auto 30px auto; padding: 30px 20px; max-width: 600px;">
 						<b>Formule PREPA-EXAMS</b> : 8h de révisons intensives préparatoires à un examen ou concours.<br><br>
 						<span class="titre-bleu">STAGES INTENSIFS PENDANT TOUTES LES VACANCES SCOLAIRES</span>
 					</div>
 					
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
 					      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
@@ -122,7 +113,7 @@
 					Atelier de conversation à bâtons rompus pour tous 
 					ceux qui ont déjà de bonnes bases en anglais et qui souhaite juste « rafraîchir » leur oral.<br><br> 
 					
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
 					      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
@@ -148,7 +139,7 @@
 					 différenciée et ainsi répondre aux besoins individuels des deux étudiants.<br><br>  
 					Les adultes peuvent également profiter de cette formule et ainsi apprendre l’anglais avec un ami ou collègue.
 					<br><br> 
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
 					      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
@@ -171,7 +162,7 @@
 					10h/20h/30h de cours préparatoires à un voyage ou un départ. 
 					A l’issue de ce stage, vous serez capable de maîtriser les situations de la vie courante à l’étranger.
 					<br><br>
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/pdficon-petit.png" /></span>
 					      <span class="cell3"><a  href="images/ficheinscription2024.pdf" target="_blank">Télécharger le formulaire d'inscription</a></span>
@@ -190,28 +181,21 @@
 			
 			<div class="content-center-top">
 				<div class="content-center-only" style="border-top: 10px solid #9d9d9c;">
-				<br>
-					<div style="text-align: center; float:left; padding: 0px 30px 20px 10px; "><img alt="photo-stage" src="images/skype.jpg" /></div>
-					<span class="titre-bleu-gros" ><b>- COURS MINI GROUPE DE 4 -</b></span>
-					
-					<div style="padding-left: 430px;">
-    					<ul>
-    					   <li>45 minutes d’atelier ludique</li>
-    					   <li>Compte rendu rédigé par le professeur</li>
-    					   <li>Des quiz, jeux à faire pendant la semaine</li>
-    					</ul>
-					</div>
-					
-					<span class="titre-bleu">Tarifs: 12€ la séance par personne</span>
-					
-					<span class="titre-bleu-gros" ><b>- COURS INDIVIDUEL -</b></span>
-					
-					<div style="padding-left: 430px;">
-    					<ul>
-    					   <li>45 minutes d’atelier ludique</li>
-    					   <li>Compte rendu rédigé par le professeur</li>
-    					   <li>Des quiz, jeux à faire pendant la semaine</li>
-    					</ul>
+					<div style="float:left; padding: 0px 30px 10px 0px;"><img alt="photo-stage" src="images/skype.jpg" style="max-width:200px;"></div>
+					<div style="overflow:hidden;">
+						<span class="titre-bleu-gros"><b>- COURS MINI GROUPE DE 4 -</b></span>
+						<ul>
+						   <li>45 minutes d’atelier ludique</li>
+						   <li>Compte rendu rédigé par le professeur</li>
+						   <li>Des quiz, jeux à faire pendant la semaine</li>
+						</ul>
+						<span class="titre-bleu">Tarifs: 12€ la séance par personne</span>
+						<span class="titre-bleu-gros"><b>- COURS INDIVIDUEL -</b></span>
+						<ul>
+						   <li>45 minutes d’atelier ludique</li>
+						   <li>Compte rendu rédigé par le professeur</li>
+						   <li>Des quiz, jeux à faire pendant la semaine</li>
+						</ul>
 					</div>
 					
 					<span class="titre-bleu">Tarifs: 37€ la séance </span>
@@ -246,7 +230,7 @@
 					Ces stages s’adressent aux élèves de la sixième à la terminale et ont lieu à chaque période de vacances : 
 					Toussaint, Février, Pâques et vacances d'été.<br><br>
 					
-					<div id="table3" style="margin-left: 540px;">
+					<div id="table3" style="text-align:center;">
 					   <div class="row3">
 					      <span class="cell3"><img id="pdf" alt="pdf" style="width: 45px" src="images/picto-clock.png" /></span>
 					      <span class="cell3"><a href="news.php?type=asso&id=23">Dates horaires et tarifs</a></span>

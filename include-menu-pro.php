@@ -1,18 +1,43 @@
-<div id='cssmenu'>
-	<ul>
-	   <li id="<?php echo $classMenuBackgroung[0] ?>" class='active' ><a href='home-pro.php'><span class="<?php echo $classMenuColor[0] ?>" >Home</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[1] ?>" class='active' ><a href='qsn-pro.php'><span class="<?php echo $classMenuColor[1] ?>" >Qui sommes Nous</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[2] ?>" class='has-sub'><a href='dif.php'><span class="<?php echo $classMenuColor[2] ?>" >CPF</span></a>
-    	   <ul>
-              <li><a href='cpf-catalogue.php'><span>CATALOGUE CPF</span></a></li>
-
-           </ul>
-	   </li><li id="<?php echo $classMenuBackgroung[3] ?>" ><a href='toeic.php'><span class="<?php echo $classMenuColor[3] ?>" >TOEIC</span></a>
-
-	   </li><li id="<?php echo $classMenuBackgroung[4] ?>"><a href='tarifs-pro.php'><span class="<?php echo $classMenuColor[4] ?>" >Tarifs</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[5] ?>" class='has-sub'><a href='news.php?type=pro'><span class="<?php echo $classMenuColor[5] ?>" >News</span></a> 
-	   </li><li id="<?php echo $classMenuBackgroung[6] ?>"><a href='livredor.php?type=pro'><span class="<?php echo $classMenuColor[6] ?>" >Livre D'or</span></a>
-	   </li><li id="<?php echo $classMenuBackgroung[7] ?>"><a href='contact-pro.php'><span class="<?php echo $classMenuColor[6] ?>">Contact</span></a>
-	   </li><li class='last' id="menuTexteFondPro"><a href='home-asso.php'><span class="menuTextePro">Particuliers</span></a></li>
-	</ul>
-</div>
+<nav class="navbar navbar-expand-lg scl-navbar scl-navbar-pro">
+  <div class="container-fluid scl-navbar-inner">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPro" aria-controls="navPro" aria-expanded="false" aria-label="Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navPro">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[0]) ? ' active' : '' ?>" href="home-pro.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[1]) ? ' active' : '' ?>" href="qsn-pro.php">Qui sommes-nous</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle<?= !empty($classMenuBackgroung[2]) ? ' active' : '' ?>" href="dif.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CPF
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="cpf-catalogue.php">Catalogue CPF</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[3]) ? ' active' : '' ?>" href="toeic.php">TOEIC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[4]) ? ' active' : '' ?>" href="tarifs-pro.php">Tarifs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[5]) ? ' active' : '' ?>" href="news.php?type=pro">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[6]) ? ' active' : '' ?>" href="livredor.php?type=pro">Livre d'or</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<?= !empty($classMenuBackgroung[7]) ? ' active' : '' ?>" href="contact-pro.php">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scl-nav-asso" href="home-asso.php">Particuliers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
