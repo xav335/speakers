@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Contactez Speakers'Corner Language à Latresne pour toute demande sur les cours d'anglais pour particuliers. Formulaire, téléphone et adresse.";
+	
 require 'admin/classes/Contact.php';
 ?>
 <?php 
@@ -70,7 +71,7 @@ require 'admin/classes/Contact.php';
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Contactez-nous | Cours d'anglais Latresne | Speakers'Corner</title>
 </head>
 <body>
 

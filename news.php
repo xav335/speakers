@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Actualités de Speakers'Corner Language : nouveaux cours, événements, résultats TOEIC et conseils pour apprendre l'anglais efficacement.";
+	
 require 'admin/classes/News.php';
 require 'admin/classes/utils.php';
 session_start();
@@ -29,7 +30,7 @@ session_start();
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Actualités | Speakers'Corner Language Latresne</title>
 </head>
 <body>
 

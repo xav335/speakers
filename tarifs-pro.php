@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Tarifs des formations en anglais professionnel éligibles CPF et OPCO en Gironde. Devis personnalisé pour entreprises. Speakers'Corner Language.";
+	
 	$societe="pro";
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='menuTexteFondOn';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='menuTexteOn';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
@@ -7,7 +8,7 @@
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Tarifs formations anglais professionnel | Speakers'Corner</title>
 </head>
 <body>
 

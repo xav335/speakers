@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Planning et horaires des cours d'anglais à Latresne et Cénac. Créneaux enfants, adultes et conversation pour tous niveaux. Speakers'Corner.";
+	
 	$societe="asso";
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='menuTexteFondOn';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='menuTexteOn';$classMenuColor[6]='';$classMenuColor[7]='';
@@ -7,7 +8,7 @@
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Horaires des cours d'anglais | Speakers'Corner Latresne</title>
 </head>
 <body>
 

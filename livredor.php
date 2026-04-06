@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Avis et témoignages des élèves de Speakers'Corner Language. Lisez et partagez votre expérience sur nos cours d'anglais à Latresne.";
+	
 	require 'admin/classes/Goldbook.php';
 	require 'admin/classes/Contact.php';
 	require 'admin/classes/Goldbookpro.php';
@@ -106,7 +107,7 @@
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Livre d'or | Avis élèves | Speakers'Corner Language</title>
 </head>
 <body>
 

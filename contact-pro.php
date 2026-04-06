@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Contactez Speakers'Corner pour vos projets de formation en anglais professionnel certifiée QUALOPI. Devis et renseignements pour entreprises.";
+	
 require 'admin/classes/Contact.php';
 
 	$societe="pro";
@@ -69,7 +70,7 @@ require 'admin/classes/Contact.php';
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Contact formations anglais professionnel | Speakers'Corner</title>
 </head>
 <body>
 

@@ -1,5 +1,6 @@
 <?php
-$societe="pro";
+$metaDescription = "Financement de vos cours d'anglais via le CPF, OPCO ou le DIF avec Speakers'Corner Language, organisme de formation agréé QUALOPI en Gironde.";
+	$societe="pro";
 $classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='menuTexteFondOn';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 $classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
 ?>
@@ -7,7 +8,7 @@ $classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$cl
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Formation anglais CPF | Speakers'Corner Latresne</title>
 </head>
 <body>
 

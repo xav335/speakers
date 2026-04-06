@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Toutes nos formules de cours d'anglais : mini-groupes enfants et adultes, TEEN POWER collégiens, ateliers conversation, TOEIC à Latresne.";
+	
 	$societe="asso";
 	$classMenuBackgroung[0]='';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='menuTexteFondOn';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='';$classMenuColor[1]='';$classMenuColor[2]='menuTexteOn';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
@@ -7,7 +8,7 @@
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Formules cours d'anglais enfants, ados, adultes | Speakers'Corner</title>
 </head>
 <body>
 

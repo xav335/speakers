@@ -1,4 +1,5 @@
-<?php 
+<?php $metaDescription = "Formations en anglais professionnel et technique certifiées QUALOPI et éligibles CPF. Cours individuels et groupes en Gironde. Speakers'Corner.";
+	
 	$societe="pro";
 	$classMenuBackgroung[0]='menuTexteFondOn';$classMenuBackgroung[1]='';$classMenuBackgroung[2]='';$classMenuBackgroung[3]='';$classMenuBackgroung[4]='';$classMenuBackgroung[5]='';$classMenuBackgroung[6]='';$classMenuBackgroung[7]='';
 	$classMenuColor[0]='menuTexteOn';$classMenuColor[1]='';$classMenuColor[2]='';$classMenuColor[3]='';$classMenuColor[4]='';$classMenuColor[5]='';$classMenuColor[6]='';$classMenuColor[7]='';
@@ -7,7 +8,7 @@
 <html lang="fr">
 <head>
   <?php include_once("./include-meta.php"); ?>
-  <title>Speakers'Corner | Cours d'anglais | Latresne</title>
+  <title>Formation anglais professionnel Bordeaux Gironde | Speakers'Corner</title>
 </head>
 <body>
 

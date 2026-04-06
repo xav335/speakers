@@ -1,5 +1,6 @@
 <?php
-require 'admin/classes/News.php';
+$metaDescription = "Speakers'Corner Language - Cours d'anglais pour particuliers et formations professionnelles certifiées QUALOPI à Latresne, Bordeaux et en Gironde.";
+	require 'admin/classes/News.php';
 require 'admin/classes/utils.php';
 session_start();
 
