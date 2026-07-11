@@ -24,19 +24,27 @@ require 'admin/classes/Contact.php';
 	
 	$affichage_envoi_ok = "none";
 	
-	if ( ( $mon_action == "envoyer" ) && ( $anti_spam == "" ) ) {
+	// Neutralise l'injection de headers mail (\r\n) via les champs utilisés
+	// dans les en-têtes (nom/email), qui permettrait à un attaquant d'ajouter
+	// des destinataires arbitraires (Bcc/Cc) et de transformer ce formulaire
+	// en relais spam.
+	$safe_name = str_replace( [ "\r", "\n" ], '', $_POST[ "name" ] ?? '' );
+	$safe_email = str_replace( [ "\r", "\n" ], '', $_POST[ "email" ] ?? '' );
+
+	if ( ( $mon_action == "envoyer" ) && ( $anti_spam == "" ) && filter_var( $safe_email, FILTER_VALIDATE_EMAIL ) ) {
 		//echo "Envoyer...<br>";
-		
+
 		$_to = "contact@speakerscornerlanguage.fr";
 		//$_to = "fjavi.gonzalez@gmail.com";
 		$sujet = "Speakers Corner language - Contact";
 		//echo "Envoi du message à " . $_to . "<br>";
-		
-		$entete = "From:SpeakersCorner <contact@speakerscornerlanguage.fr>\n";
-		$entete .= "MIME-version: 1.0\n";
-		$entete .= "Content-type: text/html; charset= iso-8859-1\n";
-		$entete .= "Bcc: fjavi.gonzalez@gmail.com\n";
-		
+
+		$entete = "From: SpeakersCorner <contact@speakerscornerlanguage.fr>\r\n";
+		$entete .= "MIME-version: 1.0\r\n";
+		$entete .= "Content-type: text/html; charset=iso-8859-1\r\n";
+		$entete .= "Bcc: fjavi.gonzalez@gmail.com\r\n";
+		$entete .= "Reply-to: " . $safe_name . " <" . $safe_email . ">\r\n";
+
 		$corps = "";
 		$corps .= "Bonjour,<br><br>";
 		$corps .= "Vous avez un message de :<br><b>" . $_POST["name"] . " " . $_POST["firstname"] . "</b> (" . $_POST["email"] . ")<br>";
@@ -50,7 +58,10 @@ require 'admin/classes/Contact.php';
 		//echo $corps . "<br>";
 		
 		// Envoi des identifiants par mail
-		mail($_to, $sujet, stripslashes($corps), $entete);
+		// -f force l'enveloppe SMTP (MAIL FROM) sur notre domaine : c'est CETTE
+		// adresse que Gmail/Yahoo vérifient via SPF, pas le header From ci-dessus
+		// (par défaut PHP met www-data@vmprod2, qui ne matche aucun SPF).
+		mail($_to, $sujet, stripslashes($corps), $entete, "-f contact@speakerscornerlanguage.fr");
 		
 		//stockage dans contact
 		$contact = new Contact();
